@@ -1,0 +1,18 @@
+{
+  "last_updated": "2026-03-05",
+  "source": "seed",
+  "trucks": [
+    {
+      "id": 1,
+      "name": "收銀車1號",
+      "color": "#f0c040",
+      "schedules": []
+    },
+    {
+      "id": 2,
+      "name": "收銀車2號",
+      "color": "#4fc3f7",
+      "schedules": []
+    }
+  ]
+}

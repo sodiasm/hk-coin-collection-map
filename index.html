@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>香港收銀車服務地圖（MVP）</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">香港收銀車服務地圖（MVP）</div>
+    <div id="today" class="today"></div>
+  </header>
+
+  <main class="layout">
+    <section class="sidebar">
+      <div class="panel">
+        <div class="panel-title">今日服務</div>
+        <div id="todayList" class="list">載入中…</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">圖例</div>
+        <div class="legend">
+          <div class="row"><span class="swatch t1"></span>收銀車1號</div>
+          <div class="row"><span class="swatch t2"></span>收銀車2號</div>
+          <div class="row"><span class="swatch both"></span>兩架車同區</div>
+          <div class="row"><span class="swatch susp"></span>今日暫停</div>
+          <div class="row"><span class="swatch none"></span>無服務</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">資料來源</div>
+        <div class="muted">
+          <div>十八區邊界：CSDI WFS（AREA_TYPE=DCD）</div>
+          <div>收銀車日程：HKMA PDF（由 GitHub Actions 自動更新）</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mapwrap">
+      <div id="map"></div>
+      <div class="hint">提示：點擊區域可查看該區所有日程</div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
