@@ -63,42 +63,73 @@ def parse_pdf_to_schedule(pdf_bytes: bytes) -> Dict[str, Any]:
         f.write(pdf_bytes)
 
     all_schedules = {1: [], 2: []}
-    year = 2026 # HKMA current schedule year
+    year = 2026
     
-    def parse_cell(cell_text):
-        if not cell_text or "暫停服務" in cell_text: return None
+    def process_cell(cell_text, outer_start, outer_end):
+        if not cell_text or "暫停服務" in cell_text: return []
+        
         lines = [l.strip() for l in cell_text.split('\n') if l.strip()]
-        if len(lines) < 2: return None
+        if not lines: return []
         
         district = lines[0].replace(' ', '')
-        if not district.endswith("區"): return None
+        if not district.endswith("區"): return []
         
-        loc_lines = []
-        susp = []
+        blocks = []
+        current_lines = []
         
         for l in lines[1:]:
             l_clean = l.replace(' ', '')
+            m_range = re.search(r'(\d{1,2})月(\d{1,2})日.*?至.*?(\d{1,2})月(\d{1,2})日', l_clean)
+            if m_range:
+                d_start = datetime.date(year, int(m_range.group(1)), int(m_range.group(2))).isoformat()
+                d_end = datetime.date(year, int(m_range.group(3)), int(m_range.group(4))).isoformat()
+                blocks.append({
+                    'lines': current_lines,
+                    'start_date': d_start,
+                    'end_date': d_end
+                })
+                current_lines = []
+            else:
+                current_lines.append(l)
+                
+        if current_lines:
+            blocks.append({
+                'lines': current_lines,
+                'start_date': outer_start,
+                'end_date': outer_end
+            })
             
-            if "暫停" in l_clean:
+        global_susp_dates = []
+        for l in lines[1:]:
+            l_clean = l.replace(' ', '')
+            if "暫停" in l_clean or re.match(r'^\(\d{1,2}月\d{1,2}日', l_clean):
                 for m in re.finditer(r'(\d{1,2})月(\d{1,2})日', l_clean):
-                    try:
-                        susp.append(datetime.date(year, int(m.group(1)), int(m.group(2))).isoformat())
+                    try: global_susp_dates.append(datetime.date(year, int(m.group(1)), int(m.group(2))).isoformat())
                     except ValueError: pass
-                continue
-                
-            if re.search(r'\d{1,2}月\d{1,2}日至', l_clean):
-                continue
-                
-            loc_lines.append(l)
+        global_susp_dates = sorted(list(set(global_susp_dates)))
+
+        schedules = []
+        for b in blocks:
+            loc_str = []
+            for l in b['lines']:
+                l_clean = l.replace(' ', '')
+                if "暫停" not in l_clean and not re.match(r'^\(\d{1,2}月\d{1,2}日', l_clean):
+                    loc_str.append(l)
             
-        location = " ".join(loc_lines).replace('*', '').strip()
-        location = re.sub(r'\s+', ' ', location)
-        
-        return {
-            'district': district,
-            'location': location,
-            'suspended_dates': sorted(list(set(susp)))
-        }
+            loc = " ".join(loc_str).replace('*', '').strip()
+            loc = re.sub(r'\s+', ' ', loc)
+            
+            if loc:
+                valid_susp = [d for d in global_susp_dates if b['start_date'] <= d <= b['end_date']]
+                schedules.append({
+                    'district': district,
+                    'location': loc,
+                    'start_date': b['start_date'],
+                    'end_date': b['end_date'],
+                    'suspended_dates': valid_susp
+                })
+                
+        return schedules
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -107,36 +138,24 @@ def parse_pdf_to_schedule(pdf_bytes: bytes) -> Dict[str, Any]:
             
             for row in table:
                 if not row or len(row) < 5: continue
-                
-                # Column mapping based on HKMA PDF structure
-                date1_col = row[0]
-                truck1_col = row[2] if len(row) > 2 else None
-                date2_col = row[3] if len(row) > 3 else None
-                truck2_col = row[4] if len(row) > 4 else None
+                date1_col, truck1_col = row[0], row[2] if len(row) > 2 else None
+                date2_col, truck2_col = row[3] if len(row) > 3 else None, row[4] if len(row) > 4 else None
                 
                 if date1_col and truck1_col and isinstance(date1_col, str):
-                    d_clean = date1_col.replace(' ', '')
-                    dates = re.findall(r'(\d{1,2})月(\d{1,2})日', d_clean)
+                    dates = re.findall(r'(\d{1,2})月(\d{1,2})日', date1_col.replace(' ', ''))
                     if len(dates) >= 2:
                         d_start = datetime.date(year, int(dates[0][0]), int(dates[0][1])).isoformat()
                         d_end = datetime.date(year, int(dates[-1][0]), int(dates[-1][1])).isoformat()
-                        cell_data = parse_cell(truck1_col)
-                        if cell_data:
-                            cell_data['start_date'] = d_start
-                            cell_data['end_date'] = d_end
+                        for cell_data in process_cell(truck1_col, d_start, d_end):
                             cell_data['service_hours'] = SERVICE_HOURS_DEFAULT
                             all_schedules[1].append(cell_data)
 
                 if date2_col and truck2_col and isinstance(date2_col, str):
-                    d_clean = date2_col.replace(' ', '')
-                    dates = re.findall(r'(\d{1,2})月(\d{1,2})日', d_clean)
+                    dates = re.findall(r'(\d{1,2})月(\d{1,2})日', date2_col.replace(' ', ''))
                     if len(dates) >= 2:
                         d_start = datetime.date(year, int(dates[0][0]), int(dates[0][1])).isoformat()
                         d_end = datetime.date(year, int(dates[-1][0]), int(dates[-1][1])).isoformat()
-                        cell_data = parse_cell(truck2_col)
-                        if cell_data:
-                            cell_data['start_date'] = d_start
-                            cell_data['end_date'] = d_end
+                        for cell_data in process_cell(truck2_col, d_start, d_end):
                             cell_data['service_hours'] = SERVICE_HOURS_DEFAULT
                             all_schedules[2].append(cell_data)
 
@@ -151,21 +170,12 @@ def parse_pdf_to_schedule(pdf_bytes: bytes) -> Dict[str, Any]:
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    
-    print("Fetching GeoJSON...")
     fc = fetch_geojson()
     compute_centroids(fc)
-
-    print("Fetching PDF...")
     pdf_bytes = http_get(HKMA_PDF_URL)
-    print("Parsing PDF...")
     schedule = parse_pdf_to_schedule(pdf_bytes)
-
     with open(OUT_SCHEDULE, 'w', encoding='utf-8') as f:
         json.dump(schedule, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ Truck1 entries: {len(schedule['trucks'][0]['schedules'])}")
-    print(f"✅ Truck2 entries: {len(schedule['trucks'][1]['schedules'])}")
 
 if __name__ == '__main__':
     main()
