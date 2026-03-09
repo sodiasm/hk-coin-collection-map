@@ -2,6 +2,11 @@ name: Update data and deploy Pages
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
   schedule:
     - cron: '0 2 * * *'  # 10:00 HKT daily
 
@@ -33,9 +38,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Update data (WFS + HKMA PDF)
-        env:
-          CSDI_WFS_URL: https://portal.csdi.gov.hk/server/services/common/had_rcd_1634523272907_75218/MapServer/WFSServer?service=wfs&request=GetFeature&typenames=DCD&outputFormat=geojson&count=200
-          HKMA_PDF_URL: https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf
         run: |
           python scripts/update_data.py
 
@@ -47,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hk-districts.geojson data/district_centroids.json data/schedule.json data/location_coords.json
+          git add data/
           git commit -m "chore: auto update data and coords" || echo "No changes"
           git push
 
