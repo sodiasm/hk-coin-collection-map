@@ -27,7 +27,7 @@ MONTHS = {
     'apr': 4, 'april': 4,
     'may': 5,
     'jun': 6, 'june': 6,
-    'jul': 6, 'july': 7,
+    'jul': 7, 'july': 7,
     'aug': 8, 'august': 8,
     'sep': 9, 'sept': 9, 'september': 9,
     'oct': 10, 'october': 10,
