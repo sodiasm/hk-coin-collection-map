@@ -36,8 +36,11 @@ MONTHS = {
     'dec': 12, 'december': 12,
 }
 
-# Extracts Date logic and optionally text remaining on the same line
-EN_DATE_LINE_EXT_RE = re.compile(r'^(\d{1,2})\s+([A-Za-z]{3,9})\s*\([^)]*\)\s*(?:to\s+)?(.*)$', re.I)
+DATE_RE_EN = re.compile(r'(\d{1,2})\s+([A-Za-z]{3,9})', re.I)
+EN_DATE_RANGE_RE = re.compile(
+    r'(\d{1,2})\s+([A-Za-z]{3,9})\s*\([^)]*\)[\s\n]*to[\s\n]*(\d{1,2})\s+([A-Za-z]{3,9})\s*\([^)]*\)',
+    re.I | re.MULTILINE
+)
 
 CORE_PREFIX_RE_EN = re.compile(
     r'^(?:'
@@ -156,7 +159,7 @@ def parse_iso_date(year: int, month: int, day: int) -> str:
     return datetime.date(year, int(month), int(day)).isoformat()
 
 def month_to_number(month_name: str) -> int:
-    return MONTHS[month_name.strip().lower()]
+    return MONTHS[month_name.strip().lower()[:3]]
 
 def extract_suspension_dates_zh(text: str, year: int) -> List[str]:
     normalized = text.replace('（', '(').replace('）', ')')
@@ -172,6 +175,17 @@ def extract_suspension_dates_zh(text: str, year: int) -> List[str]:
 def strip_suspension_notes_zh(text: str) -> str:
     normalized = text.replace('（', '(').replace('）', ')')
     return SUSP_NOTE_RE_ZH.sub('', normalized)
+
+def extract_suspension_dates_en(text: str, year: int) -> List[str]:
+    dates = []
+    text_normalized = text.replace('\n', ' ')
+    for m in re.finditer(r'\(?Service suspended.*?(?:\)|$)', text_normalized, re.I):
+        for day, month in re.findall(r'(\d{1,2})\s+([A-Za-z]{3,9})', m.group(0)):
+            try:
+                dates.append(parse_iso_date(year, month_to_number(month), int(day)))
+            except Exception:
+                pass
+    return sorted(set(dates))
 
 def clean_core_en_location(text: str) -> str:
     s = normalize_en_display_text(text)
@@ -278,135 +292,42 @@ def process_cell_zh(cell_text: str, outer_start: str, outer_end: str, year: int)
         }]
     return []
 
-def extract_suspension_dates_en(text: str, year: int) -> List[str]:
-    dates = []
-    text_normalized = text.replace('\n', ' ')
-    for m in re.finditer(r'\(?Service suspended.*?(?:\)|$)', text_normalized, re.I):
-        for day, month in re.findall(r'(\d{1,2})\s+([A-Za-z]{3,9})', m.group(0)):
-            try:
-                dates.append(parse_iso_date(year, month_to_number(month), int(day)))
-            except Exception:
-                pass
-    return sorted(set(dates))
+def process_cell_en(cell_text: str, outer_start: str, outer_end: str, year: int) -> List[Dict[str, Any]]:
+    if not cell_text:
+        return []
 
-def clean_english_lines(lines: List[str]) -> List[str]:
-    cleaned = []
-    for line in lines:
-        line = normalize_en_display_text(line)
-        if not line:
-            continue
-        if line in {'2026', 'Date', 'Coin Cart No. 1', 'Coin Cart No. 2', 'to'}:
-            continue
-        if line.startswith('Coin Cart Schedule') or line.startswith('Service hours:') or line.startswith('(* denotes'):
-            continue
-        cleaned.append(line)
-    return cleaned
+    lines = [l.strip() for l in cell_text.split('\n') if l and l.strip()]
+    if len(lines) < 2:
+        return []
 
-def parse_english_column_text(text: str, year: int, debug_label: str = '') -> List[Dict[str, Any]]:
-    # 1. Global suspension scan for the whole column
-    global_suspensions = extract_suspension_dates_en(text, year)
+    district_en = lines[0]
+    if not district_en.lower().endswith(' district'):
+        return []
 
-    raw_lines = [line for line in (text or '').split('\n')]
-    lines = clean_english_lines(raw_lines)
-    dbg(f'parse_english_column_text [{debug_label}] cleaned_lines={len(lines)}')
+    body = '\n'.join(lines[1:]).strip()
+    raw_location_en = normalize_en_display_text(body)
+    suspension_dates = extract_suspension_dates_en(body, year)
 
-    # 2. Convert to Date or Text items
-    parsed_items = []
-    for line in lines:
-        m = EN_DATE_LINE_EXT_RE.match(line)
-        if m:
-            day = int(m.group(1))
-            month = month_to_number(m.group(2))
-            date_val = parse_iso_date(year, month, day)
-            parsed_items.append({'type': 'date', 'val': date_val})
-            text_val = normalize_en_display_text(m.group(3))
-            if text_val:
-                parsed_items.append({'type': 'text', 'val': text_val})
-        else:
-            text_val = normalize_en_display_text(line)
-            if text_val:
-                parsed_items.append({'type': 'text', 'val': text_val})
-
-    # 3. Partition by District chunks
-    district_indices = [i for i, item in enumerate(parsed_items) if item['type'] == 'text' and item['val'].lower().endswith(' district')]
-    blocks = []
-    for idx_in_list, i in enumerate(district_indices):
-        start_idx = i - 1 if i > 0 and parsed_items[i-1]['type'] == 'date' else i
-        if idx_in_list + 1 < len(district_indices):
-            next_dist_idx = district_indices[idx_in_list+1]
-            end_idx = next_dist_idx - 1 if parsed_items[next_dist_idx-1]['type'] == 'date' else next_dist_idx
-        else:
-            end_idx = len(parsed_items)
-        blocks.append(parsed_items[start_idx:end_idx])
-
-    # 4. Extract Locations from each Block
-    schedules = []
-    for block_items in blocks:
-        dates_seen = 0
-        outer_start = None
-        outer_end = None
-        district_en = None
-        content_items = []
-
-        # Pull out the first two dates as outer dates, and the first "District" as district_en
-        for item in block_items:
-            if item['type'] == 'date':
-                if dates_seen == 0:
-                    outer_start = item['val']
-                elif dates_seen == 1:
-                    outer_end = item['val']
-                else:
-                    content_items.append(item)
-                dates_seen += 1
-            elif item['type'] == 'text':
-                val = item['val']
-                if not district_en and val.lower().endswith(' district'):
-                    district_en = val
-                else:
-                    content_items.append(item)
-
-        if not district_en:
-            continue
-
-        locations = []
-        current_loc = {'texts': [], 'dates': []}
-
-        # Elements alternate. Text usually comes first, then its respective dates.
-        for item in content_items:
-            if item['type'] == 'text':
-                if current_loc['dates']:
-                    locations.append(current_loc)
-                    current_loc = {'texts': [], 'dates': []}
-                current_loc['texts'].append(item['val'])
-            else:
-                current_loc['dates'].append(item['val'])
-
-        if current_loc['texts'] or current_loc['dates']:
-            locations.append(current_loc)
-
-        for loc in locations:
-            loc_text = ' '.join(loc['texts'])
-            # Clean up suspension text block if it got matched into the location text
-            loc_text = re.sub(r'(?i)\(?Service suspended.*?(?:\)|$)', '', loc_text).strip()
-
-            if not loc_text:
-                continue
-
-            loc_dates = loc['dates']
-            if len(loc_dates) >= 2:
-                start_date = loc_dates[0]
-                end_date = loc_dates[-1]
-            else:
-                start_date = outer_start
-                end_date = outer_end
-
+    stops = []
+    pos = 0
+    while True:
+        m = EN_DATE_RANGE_RE.search(body, pos)
+        if not m:
+            break
+        loc_text = body[pos:m.start()].strip()
+        loc_text = re.sub(r'(?i)\(?Service suspended[\s\S]*?(?:\)|$)', '', loc_text).strip()
+        loc_text = normalize_en_display_text(loc_text)
+        
+        start_date = parse_iso_date(year, month_to_number(m.group(2)), int(m.group(1)))
+        end_date = parse_iso_date(year, month_to_number(m.group(4)), int(m.group(3)))
+        
+        if loc_text:
+            valid_susp = [d for d in suspension_dates if start_date <= d <= end_date]
             core = clean_core_en_location(loc_text)
-            valid_susp = [d for d in global_suspensions if start_date and end_date and start_date <= d <= end_date]
-
-            schedules.append({
+            stops.append({
                 'district_en': district_en,
                 'location_en': loc_text,
-                'raw_location_en': loc_text,
+                'raw_location_en': raw_location_en,
                 'location_en_core': core,
                 'location_en_query_candidates': build_en_query_candidates(loc_text, core, district_en),
                 'start_date': start_date,
@@ -414,9 +335,30 @@ def parse_english_column_text(text: str, year: int, debug_label: str = '') -> Li
                 'suspended_dates': valid_susp,
                 'service_hours': SERVICE_HOURS_DEFAULT
             })
+        pos = m.end()
 
-    dbg(f'parse_english_column_text [{debug_label}] => {len(schedules)} stops extracted')
-    return schedules
+    if stops:
+        return stops
+
+    loc_text = body.strip()
+    loc_text = re.sub(r'(?i)\(?Service suspended[\s\S]*?(?:\)|$)', '', loc_text).strip()
+    loc_text = normalize_en_display_text(loc_text)
+    
+    if loc_text:
+        valid_susp = [d for d in suspension_dates if outer_start <= d <= outer_end]
+        core = clean_core_en_location(loc_text)
+        return [{
+            'district_en': district_en,
+            'location_en': loc_text,
+            'raw_location_en': raw_location_en,
+            'location_en_core': core,
+            'location_en_query_candidates': build_en_query_candidates(loc_text, core, district_en),
+            'start_date': outer_start,
+            'end_date': outer_end,
+            'suspended_dates': valid_susp,
+            'service_hours': SERVICE_HOURS_DEFAULT
+        }]
+    return []
 
 def parse_english_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     os.makedirs('tmp', exist_ok=True)
@@ -425,21 +367,38 @@ def parse_english_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     with open(pdf_path, 'wb') as f:
         f.write(pdf_bytes)
 
+    coords_placeholder = {1: [], 2: []}
     year = 2026
-    all_schedules = {1: [], 2: []}
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
-            pnum = page.page_number
-            mid = page.width / 2
-            left_text = page.crop((0, 0, mid, page.height)).extract_text(x_tolerance=2, y_tolerance=3) or ''
-            right_text = page.crop((mid, 0, page.width, page.height)).extract_text(x_tolerance=2, y_tolerance=3) or ''
-            
-            all_schedules[1].extend(parse_english_column_text(left_text, year, debug_label=f'p{pnum}_left'))
-            all_schedules[2].extend(parse_english_column_text(right_text, year, debug_label=f'p{pnum}_right'))
+            table = page.extract_table()
+            if not table:
+                continue
+            for row in table:
+                if not row or len(row) < 5:
+                    continue
+                date1_col = row[0]
+                truck1_col = row[2] if len(row) > 2 else None
+                date2_col = row[3] if len(row) > 3 else None
+                truck2_col = row[4] if len(row) > 4 else None
+                
+                if date1_col and truck1_col and isinstance(date1_col, str):
+                    dates = DATE_RE_EN.findall(date1_col.replace('\n', ' '))
+                    if len(dates) >= 2:
+                        outer_start = parse_iso_date(year, month_to_number(dates[0][1]), int(dates[0][0]))
+                        outer_end = parse_iso_date(year, month_to_number(dates[-1][1]), int(dates[-1][0]))
+                        coords_placeholder[1].extend(process_cell_en(truck1_col, outer_start, outer_end, year))
+                
+                if date2_col and truck2_col and isinstance(date2_col, str):
+                    dates = DATE_RE_EN.findall(date2_col.replace('\n', ' '))
+                    if len(dates) >= 2:
+                        outer_start = parse_iso_date(year, month_to_number(dates[0][1]), int(dates[0][0]))
+                        outer_end = parse_iso_date(year, month_to_number(dates[-1][1]), int(dates[-1][0]))
+                        coords_placeholder[2].extend(process_cell_en(truck2_col, outer_start, outer_end, year))
 
     with open(os.path.join(DEBUG_DIR, 'en_schedules.json'), 'w', encoding='utf-8') as df:
-        json.dump({str(k): v for k, v in all_schedules.items()}, df, ensure_ascii=False, indent=2)
-    return all_schedules
+        json.dump({str(k): v for k, v in coords_placeholder.items()}, df, ensure_ascii=False, indent=2)
+    return coords_placeholder
 
 def parse_chinese_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     os.makedirs('tmp', exist_ok=True)
@@ -494,7 +453,6 @@ def enrich_stop(stop: Dict[str, Any], truck_id: int, seq: int, coords_map: Dict[
     queries = point.get('location_en_query_candidates', stop.get('location_en_query_candidates', []))
     if not queries:
         queries = []
-    # Add Chinese location as fallback
     ch_query = stop.get('location', '')
     if ch_query and ch_query not in queries:
         queries.append(ch_query)
@@ -508,7 +466,7 @@ def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, 
     zh_schedules = parse_chinese_pdf(pdf_zh)
     en_schedules = parse_english_pdf(pdf_en)
 
-    dbg(f'Merging: zh cart1={len(zh_schedules[1])} cart2={len(zh_schedules[2])} | en cart1={len(en_schedules[1])} cart2={len(en_schedules[2])}')
+    dbg(f"Merging: zh cart1={len(zh_schedules[1])} cart2={len(zh_schedules[2])} | en cart1={len(en_schedules[1])} cart2={len(en_schedules[2])}")
 
     all_schedules = {1: [], 2: []}
     seqs = {1: 0, 2: 0}
@@ -516,6 +474,10 @@ def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, 
     for truck_id in [1, 2]:
         zh_stops = zh_schedules.get(truck_id, [])
         en_stops = en_schedules.get(truck_id, [])
+        
+        if len(zh_stops) != len(en_stops):
+            dbg(f"WARNING: mismatch stop count for truck {truck_id}: zh={len(zh_stops)}, en={len(en_stops)}")
+
         for idx, stop in enumerate(zh_stops):
             en_stop = en_stops[idx] if idx < len(en_stops) else {}
             stop['district_en'] = en_stop.get('district_en')
