@@ -39,12 +39,16 @@ jobs:
         run: |
           python scripts/update_data.py
 
+      - name: Auto geocode new locations
+        run: |
+          python scripts/fill_missing_coords.py
+
       - name: Commit data changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hk-districts.geojson data/district_centroids.json data/schedule.json
-          git commit -m "chore: auto update data" || echo "No changes"
+          git add data/hk-districts.geojson data/district_centroids.json data/schedule.json data/location_coords.json
+          git commit -m "chore: auto update data and coords" || echo "No changes"
           git push
 
       - name: Configure Pages
