@@ -462,11 +462,11 @@
       "query_used": "Hong Kong"
     },
     "北區|粉嶺牽晴間露天廣場": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4866343,
+      "lng": 114.1438851,
       "label": "粉嶺牽晴間露天廣場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Tai Po District",
       "location_en_raw": "Roadside outside 43-59 Kwong Fuk Road, Tai Po (near CLP Power Hong Kong Limited) (suspended on Tuesday 24 February)",
       "location_en_core": "Roadside outside 43-59 Kwong Fuk Road, Tai Po",
@@ -480,14 +480,16 @@
         "粉嶺牽晴間露天廣場",
         "粉嶺牽晴間露天廣場, Hong Kong",
         "粉嶺牽晴間露天廣場, Tai Po District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Fanling South Public Library, Yat Ming Road, Tin Sam, Fanling South, North District, New Territories, Hong Kong, 518010, China",
+      "query_used": "粉嶺牽晴間露天廣場"
     },
     "北區|上水彩園邨彩園會堂側(近旭埔苑清湖閣)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.5022465,
+      "lng": 114.1316544,
       "label": "上水彩園邨彩園會堂側 (近旭埔苑清湖閣)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "North District",
       "location_en_raw": "Chi Ming Street, Sheung Shui (near Yuk Yin School)",
       "location_en_core": "Chi Ming Street, Sheung Shui",
@@ -498,14 +500,16 @@
         "上水彩園邨彩園會堂側",
         "上水彩園邨彩園會堂側, Hong Kong",
         "上水彩園邨彩園會堂側, North District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Chi Ming Street, Sheung Shui Town, North District, New Territories, Hong Kong, 518010, China",
+      "query_used": "Chi Ming Street, Sheung Shui"
     },
     "油尖旺區|尖沙咀麼地道路旁停車處(近K11)": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "尖沙咀麼地道路旁停車處 (近K11)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "North District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -516,14 +520,16 @@
         "尖沙咀麼地道路旁停車處",
         "尖沙咀麼地道路旁停車處, Hong Kong",
         "尖沙咀麼地道路旁停車處, North District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "九龍城區|土瓜灣炮仗街(近欣榮花園)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4982763,
+      "lng": 114.1423228,
       "label": "土瓜灣炮仗街 (近欣榮花園)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "North District",
       "location_en_raw": "Lay-by on Wo Fung Street, Fanling (near 28 Market)",
       "location_en_core": "Wo Fung Street, Fanling",
@@ -534,14 +540,16 @@
         "土瓜灣炮仗街",
         "土瓜灣炮仗街, Hong Kong",
         "土瓜灣炮仗街, North District, Hong Kong"
-      ]
+      ],
+      "matched_address": "HSBC Building Fanling, 14-16, Wo Fung Street, Luen Wo Hui, North District, New Territories, Hong Kong, 518010, China",
+      "query_used": "Wo Fung Street, Fanling"
     },
     "元朗區|天水圍天晴邨晴喜樓": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "天水圍天晴邨晴喜樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "North District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -552,14 +560,16 @@
         "天水圍天晴邨晴喜樓",
         "天水圍天晴邨晴喜樓, Hong Kong",
         "天水圍天晴邨晴喜樓, North District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "元朗區|錦田峻巒交通總匯(近PARKYOHO第一期對出PARKCIRCLE商場)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3179106,
+      "lng": 114.1864227,
       "label": "錦田峻巒交通總匯 (近PARK YOHO第一期對出 PARK CIRCLE商場)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": "Kau Pui Lung Road, To Kwa Wan (near Lok Man Sun Chuen and Kei To Primary School)",
       "location_en_core": "Kau Pui Lung Road, To Kwa Wan",
@@ -570,14 +580,16 @@
         "錦田峻巒交通總匯",
         "錦田峻巒交通總匯, Hong Kong",
         "錦田峻巒交通總匯, Kowloon City District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Kau Pui Lung Road, Kau Pui Lung, To Kwa Wan, Kowloon City District, Kowloon, Hong Kong, China",
+      "query_used": "Kau Pui Lung Road, To Kwa Wan"
     },
     "荃灣區|馬灣珀麗灣第五座側貝殼廣場": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "馬灣珀麗灣第五座側貝殼廣場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -588,14 +600,16 @@
         "馬灣珀麗灣第五座側貝殼廣場",
         "馬灣珀麗灣第五座側貝殼廣場, Hong Kong",
         "馬灣珀麗灣第五座側貝殼廣場, Kowloon City District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "荃灣區|荃灣海貴路公共運輸交匯處小巴總站旁": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3296317,
+      "lng": 114.2036089,
       "label": "荃灣海貴路公共運輸交匯處小巴 總站旁",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": "Tak Yu House, Tak Long Estate, Kowloon City",
       "location_en_core": "Tak Yu House, Tak Long Estate, Kowloon City",
@@ -618,14 +632,16 @@
         "荃灣海貴路公共運輸交匯處小巴 總站旁",
         "荃灣海貴路公共運輸交匯處小巴 總站旁, Hong Kong",
         "荃灣海貴路公共運輸交匯處小巴 總站旁, Kowloon City District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tak Long Estate, 28, Kai Tak, Kowloon City District, Kowloon, Hong Kong, China",
+      "query_used": "Tak Long Estate, Kowloon City"
     },
     "離島區|東涌迎東邨迎悅樓側": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "東涌迎東邨迎悅樓側",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -636,14 +652,16 @@
         "東涌迎東邨迎悅樓側",
         "東涌迎東邨迎悅樓側, Hong Kong",
         "東涌迎東邨迎悅樓側, Kowloon City District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "離島區|赤鱲角暢達路南(地面運輸中心側)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4375597,
+      "lng": 113.997729,
       "label": "赤鱲角暢達路南 (地面運輸中心側)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": "Hung Lok House, Hung Fuk Estate, Yuen Long",
       "location_en_core": "Hung Lok House, Hung Fuk Estate, Yuen Long",
@@ -666,14 +684,16 @@
         "赤鱲角暢達路南",
         "赤鱲角暢達路南, Hong Kong",
         "赤鱲角暢達路南, Yuen Long District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hung Fuk Estate, 1, Hung Shui Kiu, Yuen Long District, New Territories, Hong Kong, China",
+      "query_used": "Hung Fuk Estate, Yuen Long"
     },
     "屯門區|富泰邨賢泰樓": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "富泰邨賢泰樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -684,14 +704,16 @@
         "富泰邨賢泰樓",
         "富泰邨賢泰樓, Hong Kong",
         "富泰邨賢泰樓, Yuen Long District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "屯門區|屯門青山灣黃金海岸商場側": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4412348,
+      "lng": 114.0239339,
       "label": "屯門青山灣黃金海岸商場側",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": "Lay-by opposite to Yuen Long Leisure and Cultural Building, Yuen Long (near the entrance of Ma Tin Tsuen)",
       "location_en_core": "Yuen Long Leisure and Cultural Building, Yuen Long",
@@ -708,14 +730,16 @@
         "屯門青山灣黃金海岸商場側",
         "屯門青山灣黃金海岸商場側, Hong Kong",
         "屯門青山灣黃金海岸商場側, Yuen Long District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Yuen Long Leisure and Cultural Building, 52, Ma Tin Road, Ma Tin Tsuen, Yuen Long District, Yuen Long, Hong Kong, China",
+      "query_used": "Yuen Long Leisure and Cultural Building, Yuen Long"
     },
     "沙田區|馬鞍山利安邨第三期羅馬廣場": {
-      "lat": null,
-      "lng": null,
+      "lat": -10.8855129,
+      "lng": -48.3716912,
       "label": "馬鞍山利安邨第三期羅馬廣場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": "to",
       "location_en_core": "to",
@@ -726,14 +750,16 @@
         "馬鞍山利安邨第三期羅馬廣場",
         "馬鞍山利安邨第三期羅馬廣場, Hong Kong",
         "馬鞍山利安邨第三期羅馬廣場, Yuen Long District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tocantins, North Region, Brazil",
+      "query_used": "to"
     },
     "沙田區|馬鞍山鞍祿街路旁停車處(鞍誠街花園外)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3962265,
+      "lng": 113.9648302,
       "label": "馬鞍山鞍祿街路旁停車處 (鞍誠街花園外)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Tuen Mun District",
       "location_en_raw": "King Wing House, Shan King Estate (Near green posting box)",
       "location_en_core": "King Wing House, Shan King Estate",
@@ -750,7 +776,9 @@
         "馬鞍山鞍祿街路旁停車處",
         "馬鞍山鞍祿街路旁停車處, Hong Kong",
         "馬鞍山鞍祿街路旁停車處, Tuen Mun District, Hong Kong"
-      ]
+      ],
+      "matched_address": "King Wing House, Yeung King Road, Yeung Siu Hang, Tuen Mun District, New Territories, Hong Kong, China",
+      "query_used": "King Wing House"
     },
     "元朗區|天水圍天瑞邨天瑞社區中心": {
       "lat": null,
