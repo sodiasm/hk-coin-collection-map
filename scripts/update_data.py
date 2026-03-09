@@ -8,6 +8,7 @@ HKMA_PDF_URL_ZH = os.getenv('HKMA_PDF_URL_ZH', 'https://www.hkma.gov.hk/media/ch
 HKMA_PDF_URL_EN = os.getenv('HKMA_PDF_URL_EN', 'https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf')
 
 OUT_DIR = 'data'
+DEBUG_DIR = 'data/debug'
 OUT_GEOJSON = os.path.join(OUT_DIR, 'hk-districts.geojson')
 OUT_CENTROIDS = os.path.join(OUT_DIR, 'district_centroids.json')
 OUT_SCHEDULE = os.path.join(OUT_DIR, 'schedule.json')
@@ -61,6 +62,10 @@ CORE_PREFIX_RE_EN = re.compile(
     r')',
     re.I,
 )
+
+
+def dbg(msg: str):
+    print(f'[DEBUG] {msg}', flush=True)
 
 
 def http_get(url: str) -> bytes:
@@ -319,7 +324,7 @@ def clean_english_lines(lines: List[str]) -> List[str]:
         line = normalize_en_display_text(line)
         if not line:
             continue
-        if line in {'2026', 'Date', 'Coin Cart No. 1', 'Coin Cart No. 2'}:
+        if line in {'2026', 'Date', 'Coin Cart No. 1', 'Coin Cart No. 2', 'to'}:
             continue
         if line.startswith('Coin Cart Schedule') or line.startswith('Service hours:') or line.startswith('(* denotes'):
             continue
@@ -381,8 +386,13 @@ def parse_english_block(district_en: str, outer_start: str, outer_end: str, body
     return stops
 
 
-def parse_english_column_text(text: str, year: int) -> List[Dict[str, Any]]:
-    lines = clean_english_lines([line for line in (text or '').split('\n')])
+def parse_english_column_text(text: str, year: int, debug_label: str = '') -> List[Dict[str, Any]]:
+    raw_lines = [line for line in (text or '').split('\n')]
+    lines = clean_english_lines(raw_lines)
+    dbg(f'parse_english_column_text [{debug_label}] raw_lines={len(raw_lines)} cleaned_lines={len(lines)}')
+    # DEBUG: show first 30 cleaned lines
+    for idx, ln in enumerate(lines[:30]):
+        dbg(f'  cleaned[{idx}]: {repr(ln)}')
     schedules: List[Dict[str, Any]] = []
     i = 0
     while i < len(lines):
@@ -402,6 +412,7 @@ def parse_english_column_text(text: str, year: int) -> List[Dict[str, Any]]:
             continue
         district_en = lines[i]
         if not EN_DISTRICT_RE.match(district_en):
+            dbg(f'  SKIP non-district line after date range: {repr(district_en)}')
             continue
         i += 1
         block_lines: List[str] = []
@@ -412,11 +423,13 @@ def parse_english_column_text(text: str, year: int) -> List[Dict[str, Any]]:
             block_lines.append(lines[i])
             i += 1
         schedules.extend(parse_english_block(district_en, outer_start, outer_end, block_lines, year))
+    dbg(f'parse_english_column_text [{debug_label}] => {len(schedules)} stops')
     return schedules
 
 
 def parse_english_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     os.makedirs('tmp', exist_ok=True)
+    os.makedirs(DEBUG_DIR, exist_ok=True)
     pdf_path = os.path.join('tmp', 'hkma_en.pdf')
     with open(pdf_path, 'wb') as f:
         f.write(pdf_bytes)
@@ -424,17 +437,31 @@ def parse_english_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     year = 2026
     all_schedules = {1: [], 2: []}
     with pdfplumber.open(pdf_path) as pdf:
+        dbg(f'EN PDF total pages: {len(pdf.pages)}')
         for page in pdf.pages:
+            pnum = page.page_number
             mid = page.width / 2
             left_text = page.crop((0, 0, mid, page.height)).extract_text(x_tolerance=2, y_tolerance=3) or ''
             right_text = page.crop((mid, 0, page.width, page.height)).extract_text(x_tolerance=2, y_tolerance=3) or ''
-            all_schedules[1].extend(parse_english_column_text(left_text, year))
-            all_schedules[2].extend(parse_english_column_text(right_text, year))
+            # Save raw page text to debug files
+            with open(os.path.join(DEBUG_DIR, f'en_page{pnum}_left.txt'), 'w', encoding='utf-8') as df:
+                df.write(left_text)
+            with open(os.path.join(DEBUG_DIR, f'en_page{pnum}_right.txt'), 'w', encoding='utf-8') as df:
+                df.write(right_text)
+            dbg(f'EN page {pnum}: left_chars={len(left_text)} right_chars={len(right_text)}')
+            all_schedules[1].extend(parse_english_column_text(left_text, year, debug_label=f'p{pnum}_left'))
+            all_schedules[2].extend(parse_english_column_text(right_text, year, debug_label=f'p{pnum}_right'))
+
+    dbg(f'parse_english_pdf total => cart1={len(all_schedules[1])} cart2={len(all_schedules[2])}')
+    # Save parsed EN schedules to debug
+    with open(os.path.join(DEBUG_DIR, 'en_schedules.json'), 'w', encoding='utf-8') as df:
+        json.dump({str(k): v for k, v in all_schedules.items()}, df, ensure_ascii=False, indent=2)
     return all_schedules
 
 
 def parse_chinese_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     os.makedirs('tmp', exist_ok=True)
+    os.makedirs(DEBUG_DIR, exist_ok=True)
     pdf_path = os.path.join('tmp', 'hkma_zh.pdf')
     with open(pdf_path, 'wb') as f:
         f.write(pdf_bytes)
@@ -442,10 +469,13 @@ def parse_chinese_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
     coords_placeholder = {1: [], 2: []}
     year = 2026
     with pdfplumber.open(pdf_path) as pdf:
+        dbg(f'ZH PDF total pages: {len(pdf.pages)}')
         for page in pdf.pages:
             table = page.extract_table()
             if not table:
+                dbg(f'ZH page {page.page_number}: no table found')
                 continue
+            dbg(f'ZH page {page.page_number}: table rows={len(table)}')
             for row in table:
                 if not row or len(row) < 5:
                     continue
@@ -465,6 +495,11 @@ def parse_chinese_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
                         outer_start = parse_iso_date(year, int(dates[0][0]), int(dates[0][1]))
                         outer_end = parse_iso_date(year, int(dates[-1][0]), int(dates[-1][1]))
                         coords_placeholder[2].extend(process_cell_zh(truck2_col, outer_start, outer_end, year))
+
+    dbg(f'parse_chinese_pdf total => cart1={len(coords_placeholder[1])} cart2={len(coords_placeholder[2])}')
+    # Save parsed ZH schedules to debug
+    with open(os.path.join(DEBUG_DIR, 'zh_schedules.json'), 'w', encoding='utf-8') as df:
+        json.dump({str(k): v for k, v in coords_placeholder.items()}, df, ensure_ascii=False, indent=2)
     return coords_placeholder
 
 
@@ -488,6 +523,8 @@ def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, 
     coords_map = (coords_data or {}).get('points', {})
     zh_schedules = parse_chinese_pdf(pdf_zh)
     en_schedules = parse_english_pdf(pdf_en)
+
+    dbg(f'Merging: zh cart1={len(zh_schedules[1])} cart2={len(zh_schedules[2])} | en cart1={len(en_schedules[1])} cart2={len(en_schedules[2])}')
 
     all_schedules = {1: [], 2: []}
     seqs = {1: 0, 2: 0}
@@ -521,17 +558,21 @@ def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, 
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
+    os.makedirs(DEBUG_DIR, exist_ok=True)
+    dbg('=== update_data.py START ===')
     fc = fetch_geojson()
     compute_centroids(fc)
     coords_data = load_location_coords()
+    dbg(f'Existing coords keys: {len(coords_data.get("points", {}))}')
     pdf_zh = http_get(HKMA_PDF_URL_ZH)
+    dbg(f'Downloaded ZH PDF: {len(pdf_zh)} bytes')
     pdf_en = http_get(HKMA_PDF_URL_EN)
+    dbg(f'Downloaded EN PDF: {len(pdf_en)} bytes')
     schedule = parse_pdfs_to_schedule(pdf_zh, pdf_en, coords_data)
     with open(OUT_SCHEDULE, 'w', encoding='utf-8') as f:
         json.dump(schedule, f, ensure_ascii=False, indent=2)
+    dbg('=== update_data.py END ===')
 
 
 if __name__ == '__main__':
     main()
-
-# Trigger a fresh GitHub Actions run after parser update.
