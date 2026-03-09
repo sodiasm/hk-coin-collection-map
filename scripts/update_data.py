@@ -17,6 +17,7 @@ SERVICE_HOURS_DEFAULT = '10:00-19:00'
 DATE_RANGE_RE = re.compile(r'(\d{1,2})\s*月\s*(\d{1,2})\s*日.*?至.*?(\d{1,2})\s*月\s*(\d{1,2})\s*日')
 DATE_RE = re.compile(r'(\d{1,2})\s*月\s*(\d{1,2})\s*日')
 SUSP_NOTE_RE = re.compile(r'[（(][^()（）]*暫停[^()（）]*[）)]')
+LEADING_WEEKDAY_RE = re.compile(r'^(?:\(\s*星期[一二三四五六日天]\s*\)\s*)+')
 
 
 def http_get(url: str) -> bytes:
@@ -85,6 +86,7 @@ def normalize_display_text(s: str) -> str:
     s = s.replace('*', '')
     s = s.replace('（', '(').replace('）', ')')
     s = re.sub(r'\s+', ' ', s)
+    s = LEADING_WEEKDAY_RE.sub('', s)
     return s.strip(' -、;；,，').strip()
 
 
