@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-03-09",
+  "points": {
+    "北區|上水智明街(近育賢學校)": {
+      "lat": null,
+      "lng": null,
+      "label": "上水智明街(近育賢學校)",
+      "source": "manual",
+      "status": "pending"
+    },
+    "北區|粉嶺和豐路路旁停車處(近28墟商場)": {
+      "lat": null,
+      "lng": null,
+      "label": "粉嶺和豐路路旁停車處 (近28墟商場)",
+      "source": "manual",
+      "status": "pending"
+    },
+    "西貢區|調景嶺彩明苑彩富閣側(近彩明商場行人天橋底)": {
+      "lat": null,
+      "lng": null,
+      "label": "調景嶺彩明苑彩富閣側 (近彩明商場行人天橋底)",
+      "source": "manual",
+      "status": "pending"
+    }
+  }
+}
