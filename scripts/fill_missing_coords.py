@@ -14,6 +14,13 @@ HEADERS = {
     'User-Agent': 'hk-coin-collection-map/1.0 (github-actions)'
 }
 
+def is_valid_hk_coord(lat, lng):
+    if lat is None or lng is None: return False
+    try:
+        lat, lng = float(lat), float(lng)
+        return 22.10 <= lat <= 22.60 and 113.80 <= lng <= 114.50
+    except:
+        return False
 
 def log(message: str):
     print(f'[fill_missing_coords] {message}', flush=True)
@@ -62,8 +69,9 @@ def build_query_candidates(stop: dict) -> list:
     candidates = []
 
     def add(value: str):
+        if not value: return
         value = clean_query(value)
-        if value and value not in candidates:
+        if value and value.lower() not in ['to', 'none', 'null'] and value not in candidates:
             candidates.append(value)
 
     for value in raw_values:
@@ -72,7 +80,7 @@ def build_query_candidates(stop: dict) -> list:
     for value in list(candidates):
         if 'hong kong' not in value.lower():
             add(f'{value}, Hong Kong')
-            if district_en:
+            if district_en and district_en.lower() not in ['to']:
                 add(f'{value}, {district_en}, Hong Kong')
 
     return candidates
@@ -102,9 +110,17 @@ def geocode(query: str):
         'Top result '
         f"display_name={top.get('display_name')} | lat={top.get('lat')} | lon={top.get('lon')}"
     )
+    
+    lat = float(top['lat'])
+    lng = float(top['lon'])
+    
+    if not is_valid_hk_coord(lat, lng):
+        log(f"REJECTED: Coordinates ({lat}, {lng}) out of bounds for Hong Kong.")
+        return None
+        
     return {
-        'lat': float(top['lat']),
-        'lng': float(top['lon']),
+        'lat': lat,
+        'lng': lng,
         'display_name': top.get('display_name')
     }
 
@@ -120,6 +136,15 @@ def main():
 
     points = coords.setdefault('points', {})
     changed = False
+
+    # Force reset bad coordinates in existing cache before proceeding
+    for k, p in points.items():
+        if p.get('lat') is not None and not is_valid_hk_coord(p.get('lat'), p.get('lng')):
+            log(f"Clearing out-of-bounds coordinate in cache for {k}")
+            p['lat'] = None
+            p['lng'] = None
+            p['status'] = 'pending'
+            changed = True
 
     wanted = {}
     for truck in schedule.get('trucks', []):
