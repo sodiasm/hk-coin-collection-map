@@ -16,6 +16,7 @@ SERVICE_HOURS_DEFAULT = '10:00-19:00'
 
 DATE_RANGE_RE = re.compile(r'(\d{1,2})\s*月\s*(\d{1,2})\s*日.*?至.*?(\d{1,2})\s*月\s*(\d{1,2})\s*日')
 DATE_RE = re.compile(r'(\d{1,2})\s*月\s*(\d{1,2})\s*日')
+SUSP_NOTE_RE = re.compile(r'[（(][^()（）]*暫停[^()（）]*[）)]')
 
 
 def http_get(url: str) -> bytes:
@@ -78,6 +79,15 @@ def normalize_text(s: str) -> str:
     return s.strip()
 
 
+def normalize_display_text(s: str) -> str:
+    if not s:
+        return ''
+    s = s.replace('*', '')
+    s = s.replace('（', '(').replace('）', ')')
+    s = re.sub(r'\s+', ' ', s)
+    return s.strip(' -、;；,，').strip()
+
+
 def make_location_key(district: str, location: str) -> str:
     return f"{normalize_text(district)}|{normalize_text(location)}"
 
@@ -108,6 +118,23 @@ def enrich_stop(stop: Dict[str, Any], truck_id: int, seq: int, coords_map: Dict[
     return stop
 
 
+def extract_suspension_dates(text: str, year: int) -> List[str]:
+    normalized = text.replace('（', '(').replace('）', ')')
+    dates = []
+    for note in SUSP_NOTE_RE.findall(normalized):
+        for m in DATE_RE.finditer(note):
+            try:
+                dates.append(parse_iso_date(year, m.group(1), m.group(2)))
+            except ValueError:
+                pass
+    return sorted(set(dates))
+
+
+def strip_suspension_notes(text: str) -> str:
+    normalized = text.replace('（', '(').replace('）', ')')
+    return SUSP_NOTE_RE.sub('', normalized)
+
+
 def process_cell(cell_text: str, outer_start: str, outer_end: str, year: int) -> List[Dict[str, Any]]:
     if not cell_text or '暫停服務' in cell_text:
         return []
@@ -120,87 +147,51 @@ def process_cell(cell_text: str, outer_start: str, outer_end: str, year: int) ->
     if not district.endswith('區'):
         return []
 
-    sub_ranges = []
-    for idx, line in enumerate(lines[1:], start=1):
-        m = DATE_RANGE_RE.search(line.replace(' ', ''))
-        if m:
-            sub_ranges.append({
-                'line_index': idx,
-                'start_date': parse_iso_date(year, m.group(1), m.group(2)),
-                'end_date': parse_iso_date(year, m.group(3), m.group(4))
-            })
-
-    suspension_dates = []
-    for line in lines[1:]:
-        compact = line.replace(' ', '')
-        if '暫停' in compact:
-            for m in DATE_RE.finditer(compact):
-                try:
-                    suspension_dates.append(parse_iso_date(year, m.group(1), m.group(2)))
-                except ValueError:
-                    pass
-    suspension_dates = sorted(set(suspension_dates))
-
-    def clean_location_parts(parts: List[str]) -> str:
-        cleaned = []
-        for p in parts:
-            compact = p.replace(' ', '')
-            if DATE_RANGE_RE.search(compact):
-                continue
-            if '暫停' in compact:
-                continue
-            cleaned.append(p.replace('*', '').strip())
-        return re.sub(r'\s+', ' ', ' '.join([x for x in cleaned if x])).strip()
+    body = re.sub(r'\s+', ' ', ' '.join(lines[1:])).strip()
+    raw_location = body
+    suspension_dates = extract_suspension_dates(body, year)
+    parse_body = normalize_display_text(strip_suspension_notes(body))
 
     stops = []
+    pos = 0
+    while True:
+        m = DATE_RANGE_RE.search(parse_body, pos)
+        if not m:
+            break
 
-    if not sub_ranges:
-        location = clean_location_parts(lines[1:])
+        location = normalize_display_text(parse_body[pos:m.start()])
+        start_date = parse_iso_date(year, m.group(1), m.group(2))
+        end_date = parse_iso_date(year, m.group(3), m.group(4))
         if location:
-            valid_susp = [d for d in suspension_dates if outer_start <= d <= outer_end]
+            valid_susp = [d for d in suspension_dates if start_date <= d <= end_date]
             stops.append({
                 'district': district,
                 'location': location,
-                'raw_location': re.sub(r'\s+', ' ', ' '.join(lines[1:])).strip(),
-                'start_date': outer_start,
-                'end_date': outer_end,
+                'raw_location': raw_location,
+                'start_date': start_date,
+                'end_date': end_date,
                 'suspended_dates': valid_susp,
                 'service_hours': SERVICE_HOURS_DEFAULT
             })
+        pos = m.end()
+
+    if stops:
         return stops
 
-    prev = 1
-    for sub in sub_ranges:
-        loc_lines = lines[prev:sub['line_index']]
-        location = clean_location_parts(loc_lines)
-        if location:
-            valid_susp = [d for d in suspension_dates if sub['start_date'] <= d <= sub['end_date']]
-            stops.append({
-                'district': district,
-                'location': location,
-                'raw_location': re.sub(r'\s+', ' ', ' '.join(lines[1:])).strip(),
-                'start_date': sub['start_date'],
-                'end_date': sub['end_date'],
-                'suspended_dates': valid_susp,
-                'service_hours': SERVICE_HOURS_DEFAULT
-            })
-        prev = sub['line_index'] + 1
+    location = normalize_display_text(parse_body)
+    if location:
+        valid_susp = [d for d in suspension_dates if outer_start <= d <= outer_end]
+        return [{
+            'district': district,
+            'location': location,
+            'raw_location': raw_location,
+            'start_date': outer_start,
+            'end_date': outer_end,
+            'suspended_dates': valid_susp,
+            'service_hours': SERVICE_HOURS_DEFAULT
+        }]
 
-    if not stops:
-        location = clean_location_parts(lines[1:])
-        if location:
-            valid_susp = [d for d in suspension_dates if outer_start <= d <= outer_end]
-            stops.append({
-                'district': district,
-                'location': location,
-                'raw_location': re.sub(r'\s+', ' ', ' '.join(lines[1:])).strip(),
-                'start_date': outer_start,
-                'end_date': outer_end,
-                'suspended_dates': valid_susp,
-                'service_hours': SERVICE_HOURS_DEFAULT
-            })
-
-    return stops
+    return []
 
 
 def parse_pdf_to_schedule(pdf_bytes: bytes, coords_data: Dict[str, Any]) -> Dict[str, Any]:
