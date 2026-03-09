@@ -39,9 +39,9 @@
           ],
           "stop_id": "t1-2026-01-05-01",
           "location_key": "中西區|上環永樂街118號路旁停車處(近上環文化廣場)",
+          "coord_status": "auto",
           "lat": 22.28678,
           "lng": 114.1499416,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -67,9 +67,9 @@
           ],
           "stop_id": "t1-2026-01-12-02",
           "location_key": "沙田區|大圍村南道(近大圍港鐵站A出口)",
+          "coord_status": "auto",
           "lat": 22.3750286,
           "lng": 114.1806102,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -81,11 +81,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sha Tin District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sha Tin District, Hong Kong",
             "沙田新翠邨新傑樓",
@@ -94,10 +93,10 @@
           ],
           "stop_id": "t1-2026-01-17-03",
           "location_key": "沙田區|沙田新翠邨新傑樓",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "深水埗區",
@@ -136,9 +135,9 @@
           ],
           "stop_id": "t1-2026-01-19-04",
           "location_key": "深水埗區|石峽尾大坑東邨東怡樓側(東健樓與東怡樓之間車位)",
+          "coord_status": "auto",
           "lat": 22.3707841,
           "lng": 114.1811778,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -150,11 +149,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sha Tin District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sha Tin District, Hong Kong",
             "深水埗醫局街路旁停車處",
@@ -164,10 +162,10 @@
           ],
           "stop_id": "t1-2026-01-23-05",
           "location_key": "深水埗區|深水埗醫局街路旁停車處(近嘉美中心外)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "觀塘區",
@@ -199,9 +197,9 @@
           ],
           "stop_id": "t1-2026-01-27-06",
           "location_key": "觀塘區|秀茂坪邨秀暉樓側空地",
+          "coord_status": "auto",
           "lat": 22.3303498,
           "lng": 114.170993,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -213,11 +211,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sham Shui Po District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sham Shui Po District, Hong Kong",
             "觀塘翠屏道19號路旁停車處 邨翠柳樓)",
@@ -227,10 +224,10 @@
           ],
           "stop_id": "t1-2026-01-30-07",
           "location_key": "觀塘區|觀塘翠屏道19號路旁停車處(近翠屏(北)邨翠柳樓)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "屯門區",
@@ -256,9 +253,9 @@
           ],
           "stop_id": "t1-2026-02-02-08",
           "location_key": "屯門區|屯門寶田邨第四座",
+          "coord_status": "auto",
           "lat": 22.4095309,
           "lng": 113.9661552,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -270,11 +267,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sham Shui Po District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sham Shui Po District, Hong Kong",
             "青衣牙鷹洲街路旁停車處",
@@ -284,10 +280,10 @@
           ],
           "stop_id": "t1-2026-02-09-09",
           "location_key": "葵青區|青衣牙鷹洲街路旁停車處(灝景灣車場入口對面)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "葵青區",
@@ -326,9 +322,9 @@
           ],
           "stop_id": "t1-2026-02-12-10",
           "location_key": "葵青區|葵涌葵翠邨平台地下(屋邨辦事處樓下)",
+          "coord_status": "auto",
           "lat": 22.315702,
           "lng": 114.2294864,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -342,11 +338,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Kwun Tong District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kwun Tong District, Hong Kong",
             "大埔廣福道43-59號路旁",
@@ -356,10 +351,10 @@
           ],
           "stop_id": "t1-2026-02-23-11",
           "location_key": "大埔區|大埔廣福道43-59號路旁(近中華電力有限公司)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "北區",
@@ -392,9 +387,9 @@
           ],
           "stop_id": "t1-2026-03-02-12",
           "location_key": "北區|上水智明街(近育賢學校)",
+          "coord_status": "auto",
           "lat": 22.3145889,
           "lng": 114.2295188,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -406,11 +401,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Kwun Tong District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kwun Tong District, Hong Kong",
             "粉嶺和豐路路旁停車處",
@@ -420,10 +414,10 @@
           ],
           "stop_id": "t1-2026-03-06-13",
           "location_key": "北區|粉嶺和豐路路旁停車處(近28墟商場)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "九龍城區",
@@ -457,9 +451,9 @@
           ],
           "stop_id": "t1-2026-03-09-14",
           "location_key": "九龍城區|土瓜灣靠背壟道(近樂民新村及基道小學)",
+          "coord_status": "auto",
           "lat": 22.4100495,
           "lng": 113.9666009,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -486,9 +480,9 @@
           ],
           "stop_id": "t1-2026-03-12-15",
           "location_key": "九龍城區|九龍城德朗邨德瑜樓",
+          "coord_status": "auto",
           "lat": 22.3612698,
           "lng": 114.1049093,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -502,11 +496,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Kwai Tsing District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kwai Tsing District, Hong Kong",
             "洪水橋洪福邨洪樂樓",
@@ -515,10 +508,10 @@
           ],
           "stop_id": "t1-2026-03-16-16",
           "location_key": "元朗區|洪水橋洪福邨洪樂樓",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "元朗區",
@@ -555,10 +548,10 @@
           ],
           "stop_id": "t1-2026-03-20-17",
           "location_key": "元朗區|元朗元朗文化康樂大樓對面路旁停車處(近馬田村口)",
-          "lat": 14.5856427,
-          "lng": 121.0594843,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "屯門區",
@@ -571,11 +564,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Kwai Tsing District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kwai Tsing District, Hong Kong",
             "山景邨景榮樓",
@@ -585,10 +577,10 @@
           ],
           "stop_id": "t1-2026-03-23-18",
           "location_key": "屯門區|山景邨景榮樓(近綠色郵筒)",
-          "lat": -10.8855129,
-          "lng": -48.3716912,
-          "coord_status": "auto",
-          "coord_source": "nominatim"
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         },
         {
           "district": "深水埗區",
@@ -613,9 +605,9 @@
           ],
           "stop_id": "t1-2026-03-30-19",
           "location_key": "深水埗區|富昌邨富旺樓",
+          "coord_status": "auto",
           "lat": 22.2792968,
           "lng": 114.1628907,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -645,9 +637,9 @@
           ],
           "stop_id": "t1-2026-04-06-20",
           "location_key": "北區|粉嶺牽晴間露天廣場",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.4866343,
+          "lng": 114.1438851,
           "coord_source": "nominatim"
         },
         {
@@ -673,9 +665,9 @@
           ],
           "stop_id": "t1-2026-04-11-21",
           "location_key": "北區|上水彩園邨彩園會堂側(近旭埔苑清湖閣)",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.5022465,
+          "lng": 114.1316544,
           "coord_source": "nominatim"
         },
         {
@@ -689,11 +681,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "North District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, North District, Hong Kong",
             "尖沙咀麼地道路旁停車處",
@@ -703,10 +694,10 @@
           ],
           "stop_id": "t1-2026-04-13-22",
           "location_key": "油尖旺區|尖沙咀麼地道路旁停車處(近K11)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "九龍城區",
@@ -733,9 +724,9 @@
           ],
           "stop_id": "t1-2026-04-20-23",
           "location_key": "九龍城區|土瓜灣炮仗街(近欣榮花園)",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.4982763,
+          "lng": 114.1423228,
           "coord_source": "nominatim"
         },
         {
@@ -749,11 +740,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "North District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, North District, Hong Kong",
             "天水圍天晴邨晴喜樓",
@@ -762,10 +752,10 @@
           ],
           "stop_id": "t1-2026-04-27-24",
           "location_key": "元朗區|天水圍天晴邨晴喜樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "元朗區",
@@ -790,9 +780,9 @@
           ],
           "stop_id": "t1-2026-05-02-25",
           "location_key": "元朗區|錦田峻巒交通總匯(近PARKYOHO第一期對出PARKCIRCLE商場)",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.3179106,
+          "lng": 114.1864227,
           "coord_source": "nominatim"
         },
         {
@@ -804,11 +794,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Kowloon City District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kowloon City District, Hong Kong",
             "馬灣珀麗灣第五座側貝殼廣場",
@@ -817,10 +806,10 @@
           ],
           "stop_id": "t1-2026-05-05-26",
           "location_key": "荃灣區|馬灣珀麗灣第五座側貝殼廣場",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "荃灣區",
@@ -856,9 +845,9 @@
           ],
           "stop_id": "t1-2026-05-08-27",
           "location_key": "荃灣區|荃灣海貴路公共運輸交匯處小巴總站旁",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.3296317,
+          "lng": 114.2036089,
           "coord_source": "nominatim"
         },
         {
@@ -872,11 +861,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Kowloon City District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Kowloon City District, Hong Kong",
             "東涌迎東邨迎悅樓側",
@@ -885,10 +873,10 @@
           ],
           "stop_id": "t1-2026-05-11-28",
           "location_key": "離島區|東涌迎東邨迎悅樓側",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "離島區",
@@ -925,9 +913,9 @@
           ],
           "stop_id": "t1-2026-05-15-29",
           "location_key": "離島區|赤鱲角暢達路南(地面運輸中心側)",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.4375597,
+          "lng": 113.997729,
           "coord_source": "nominatim"
         },
         {
@@ -939,11 +927,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Yuen Long District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Yuen Long District, Hong Kong",
             "富泰邨賢泰樓",
@@ -952,10 +939,10 @@
           ],
           "stop_id": "t1-2026-05-18-30",
           "location_key": "屯門區|富泰邨賢泰樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "屯門區",
@@ -985,9 +972,9 @@
           ],
           "stop_id": "t1-2026-05-22-31",
           "location_key": "屯門區|屯門青山灣黃金海岸商場側",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.4412348,
+          "lng": 114.0239339,
           "coord_source": "nominatim"
         },
         {
@@ -1001,11 +988,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Yuen Long District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Yuen Long District, Hong Kong",
             "馬鞍山利安邨第三期羅馬廣場",
@@ -1014,10 +1000,10 @@
           ],
           "stop_id": "t1-2026-05-25-32",
           "location_key": "沙田區|馬鞍山利安邨第三期羅馬廣場",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "沙田區",
@@ -1048,9 +1034,9 @@
           ],
           "stop_id": "t1-2026-05-29-33",
           "location_key": "沙田區|馬鞍山鞍祿街路旁停車處(鞍誠街花園外)",
-          "lat": null,
-          "lng": null,
-          "coord_status": "pending",
+          "coord_status": "auto",
+          "lat": 22.3962265,
+          "lng": 113.9648302,
           "coord_source": "nominatim"
         }
       ]
@@ -1096,10 +1082,10 @@
           ],
           "stop_id": "t2-2026-01-05-01",
           "location_key": "元朗區|天水圍天瑞邨天瑞社區中心",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "離島區",
@@ -1131,10 +1117,10 @@
           ],
           "stop_id": "t2-2026-01-12-02",
           "location_key": "離島區|愉景灣愉景廣場愉景灣郵局側",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "離島區",
@@ -1145,11 +1131,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Islands District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Islands District, Hong Kong",
             "東涌滿東邨滿順樓",
@@ -1158,10 +1143,10 @@
           ],
           "stop_id": "t2-2026-01-15-03",
           "location_key": "離島區|東涌滿東邨滿順樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "油尖旺區",
@@ -1199,10 +1184,10 @@
           ],
           "stop_id": "t2-2026-01-19-04",
           "location_key": "油尖旺區|佐敦廣東道575號",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "油尖旺區",
@@ -1213,11 +1198,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Islands District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Islands District, Hong Kong",
             "油麻地砵蘭街路旁停車處",
@@ -1227,10 +1211,10 @@
           ],
           "stop_id": "t2-2026-01-23-05",
           "location_key": "油尖旺區|油麻地砵蘭街路旁停車處(砵蘭街/文明里休憩處旁)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "灣仔區",
@@ -1261,10 +1245,10 @@
           ],
           "stop_id": "t2-2026-01-26-06",
           "location_key": "灣仔區|灣仔港灣徑灣景中心路旁停車處(新鴻基中心對面)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "荃灣區",
@@ -1275,11 +1259,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Yau Tsim Mong District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Yau Tsim Mong District, Hong Kong",
             "荃灣眾安街",
@@ -1289,10 +1272,10 @@
           ],
           "stop_id": "t2-2026-02-02-07",
           "location_key": "荃灣區|荃灣眾安街(荃灣千色匯一期外)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "荃灣區",
@@ -1318,10 +1301,10 @@
           ],
           "stop_id": "t2-2026-02-06-08",
           "location_key": "荃灣區|荃灣福來邨永定樓對出",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "南區",
@@ -1334,11 +1317,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Yau Tsim Mong District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Yau Tsim Mong District, Hong Kong",
             "香港仔田灣興和街",
@@ -1348,10 +1330,10 @@
           ],
           "stop_id": "t2-2026-02-09-09",
           "location_key": "南區|香港仔田灣興和街(近港灣安老院)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "黃大仙區",
@@ -1381,10 +1363,10 @@
           ],
           "stop_id": "t2-2026-02-23-10",
           "location_key": "黃大仙區|慈雲山慈康邨康秀樓及康德樓之間露天車位(欣華街側)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "西貢區",
@@ -1412,9 +1394,9 @@
           ],
           "stop_id": "t2-2026-03-02-11",
           "location_key": "西貢區|調景嶺彩明苑彩富閣側(近彩明商場行人天橋底)",
+          "coord_status": "auto",
           "lat": 22.3719905,
           "lng": 114.1181723,
-          "coord_status": "auto",
           "coord_source": "nominatim"
         },
         {
@@ -1428,11 +1410,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Tsuen Wan District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Tsuen Wan District, Hong Kong",
             "西灣河鯉景灣太康街逸星閣",
@@ -1441,10 +1422,10 @@
           ],
           "stop_id": "t2-2026-03-09-12",
           "location_key": "東區|西灣河鯉景灣太康街逸星閣",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "東區",
@@ -1481,10 +1462,10 @@
           ],
           "stop_id": "t2-2026-03-13-13",
           "location_key": "東區|北角城市花園道路旁停車處(近城市花園公園)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "沙田區",
@@ -1497,11 +1478,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Tsuen Wan District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Tsuen Wan District, Hong Kong",
             "沙田多石街路旁停車處",
@@ -1511,10 +1491,10 @@
           ],
           "stop_id": "t2-2026-03-16-14",
           "location_key": "沙田區|沙田多石街路旁停車處(近水泉澳邨水泉澳廣場對出)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "沙田區",
@@ -1545,10 +1525,10 @@
           ],
           "stop_id": "t2-2026-03-20-15",
           "location_key": "沙田區|沙田上禾輋路旁停車處(沙田政府合署外)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "灣仔區",
@@ -1574,10 +1554,10 @@
           ],
           "stop_id": "t2-2026-03-23-16",
           "location_key": "灣仔區|天后留仙街路旁停車處(近港鐵天后站A2出口)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "灣仔區",
@@ -1617,10 +1597,10 @@
           ],
           "stop_id": "t2-2026-03-27-17",
           "location_key": "灣仔區|大坑蓮花宮西街(中華大廈對出)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "南區",
@@ -1658,10 +1638,10 @@
           ],
           "stop_id": "t2-2026-03-30-18",
           "location_key": "南區|鴨脷洲海怡路海怡半島第11座對開路旁",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "西貢區",
@@ -1694,10 +1674,10 @@
           ],
           "stop_id": "t2-2026-04-06-19",
           "location_key": "西貢區|西貢賽馬會大會堂停車場",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "西貢區",
@@ -1708,11 +1688,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Eastern District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Eastern District, Hong Kong",
             "將軍澳健明邨健晴樓",
@@ -1721,10 +1700,10 @@
           ],
           "stop_id": "t2-2026-04-10-20",
           "location_key": "西貢區|將軍澳健明邨健晴樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "沙田區",
@@ -1753,10 +1732,10 @@
           ],
           "stop_id": "t2-2026-04-13-21",
           "location_key": "沙田區|大圍美林邨美桃樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "中西區",
@@ -1769,11 +1748,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Eastern District",
-          "location_en_raw": "To",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "To",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "To",
             "To, Hong Kong",
             "To, Eastern District, Hong Kong",
             "西營盤干諾道西169-178號及 181號路旁停車處",
@@ -1783,10 +1761,10 @@
           ],
           "stop_id": "t2-2026-04-20-22",
           "location_key": "中西區|西營盤干諾道西169-178號及181號路旁停車處(近均益大廈二期及滙港中心)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "中西區",
@@ -1811,10 +1789,10 @@
           ],
           "stop_id": "t2-2026-04-24-23",
           "location_key": "中西區|西環堅尼地城新海旁街路旁停車處(近堅尼地城消防局)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "大埔區",
@@ -1825,11 +1803,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sha Tin District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sha Tin District, Hong Kong",
             "大埔寶雅苑逸和閣側",
@@ -1839,10 +1816,10 @@
           ],
           "stop_id": "t2-2026-04-27-24",
           "location_key": "大埔區|大埔寶雅苑逸和閣側(近太和體育館)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "大埔區",
@@ -1866,10 +1843,10 @@
           ],
           "stop_id": "t2-2026-05-02-25",
           "location_key": "大埔區|大埔富亨邨亨翠樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "黃大仙區",
@@ -1880,11 +1857,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Sha Tin District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Sha Tin District, Hong Kong",
             "牛池灣彩雲邨甘霖樓側空地",
@@ -1894,10 +1870,10 @@
           ],
           "stop_id": "t2-2026-05-04-26",
           "location_key": "黃大仙區|牛池灣彩雲(一)邨甘霖樓側空地(近天主教甘霖幼稚園)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "黃大仙區",
@@ -1922,10 +1898,10 @@
           ],
           "stop_id": "t2-2026-05-08-27",
           "location_key": "黃大仙區|牛池灣彩雲(二)邨玉宇樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "觀塘區",
@@ -1938,11 +1914,10 @@
           ],
           "service_hours": "10:00-19:00",
           "district_en": "Wan Chai District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Wan Chai District, Hong Kong",
             "觀塘順利邨小舞台",
@@ -1952,10 +1927,10 @@
           ],
           "stop_id": "t2-2026-05-11-28",
           "location_key": "觀塘區|觀塘順利邨小舞台(近利康樓)",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "東區",
@@ -1981,10 +1956,10 @@
           ],
           "stop_id": "t2-2026-05-18-29",
           "location_key": "東區|小西灣邨瑞隆樓側空地",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "葵青區",
@@ -1995,11 +1970,10 @@
           "suspended_dates": [],
           "service_hours": "10:00-19:00",
           "district_en": "Wan Chai District",
-          "location_en_raw": "to",
+          "location_en_raw": null,
           "location_en": null,
-          "location_en_core": "to",
+          "location_en_core": null,
           "location_en_query_candidates": [
-            "to",
             "to, Hong Kong",
             "to, Wan Chai District, Hong Kong",
             "葵涌大窩口邨富碧樓",
@@ -2008,10 +1982,10 @@
           ],
           "stop_id": "t2-2026-05-26-30",
           "location_key": "葵青區|葵涌大窩口邨富碧樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         },
         {
           "district": "葵青區",
@@ -2041,10 +2015,10 @@
           ],
           "stop_id": "t2-2026-05-29-31",
           "location_key": "葵青區|葵涌葵聯邨聯欣樓",
+          "coord_status": "pending",
           "lat": null,
           "lng": null,
-          "coord_status": "pending",
-          "coord_source": "nominatim"
+          "coord_source": null
         }
       ]
     }

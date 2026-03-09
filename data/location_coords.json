@@ -29,24 +29,23 @@
       "query_used": "19 Tsui Ping Road, Kwun Tong Estate)"
     },
     "北區|粉嶺和豐路路旁停車處(近28墟商場)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3195857,
+      "lng": 114.2320637,
       "label": "粉嶺和豐路路旁停車處 (近28墟商場)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Kwun Tong District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kwun Tong District, Hong Kong",
         "粉嶺和豐路路旁停車處",
         "粉嶺和豐路路旁停車處, Hong Kong",
         "粉嶺和豐路路旁停車處, Kwun Tong District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Sau Mau Ping, Kwun Tong District, Kowloon, Hong Kong, China",
+      "query_used": "to, Kwun Tong District, Hong Kong"
     },
     "西貢區|調景嶺彩明苑彩富閣側(近彩明商場行人天橋底)": {
       "lat": 22.3719905,
@@ -112,24 +111,23 @@
       "query_used": "Tsuen Nam Road, Tai Wai"
     },
     "沙田區|沙田新翠邨新傑樓": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.4201838,
+      "lng": 114.2079145,
       "label": "沙田新翠邨新傑樓",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Sha Tin District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sha Tin District, Hong Kong",
         "沙田新翠邨新傑樓",
         "沙田新翠邨新傑樓, Hong Kong",
         "沙田新翠邨新傑樓, Sha Tin District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "The Chinese University of Hong Kong, Chak Cheung Street, Ma Liu Shui, Sha Tin District, New Territories, Hong Kong, China",
+      "query_used": "to, Sha Tin District, Hong Kong"
     },
     "深水埗區|石峽尾大坑東邨東怡樓側(東健樓與東怡樓之間車位)": {
       "lat": 22.3707841,
@@ -164,24 +162,23 @@
       "query_used": "Sun Chui Estate, Sha Tin"
     },
     "深水埗區|深水埗醫局街路旁停車處(近嘉美中心外)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.4201838,
+      "lng": 114.2079145,
       "label": "深水埗醫局街路旁停車處 (近嘉美中心外)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Sha Tin District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sha Tin District, Hong Kong",
         "深水埗醫局街路旁停車處",
         "深水埗醫局街路旁停車處, Hong Kong",
         "深水埗醫局街路旁停車處, Sha Tin District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "The Chinese University of Hong Kong, Chak Cheung Street, Ma Liu Shui, Sha Tin District, New Territories, Hong Kong, China",
+      "query_used": "to, Sha Tin District, Hong Kong"
     },
     "觀塘區|秀茂坪邨秀暉樓側空地": {
       "lat": 22.3303498,
@@ -210,24 +207,23 @@
       "query_used": "Tung Yi House"
     },
     "觀塘區|觀塘翠屏道19號路旁停車處(近翠屏(北)邨翠柳樓)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3353171,
+      "lng": 114.1740162,
       "label": "觀塘翠屏道19號路旁停車處 (近翠屏(北)邨翠柳樓)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Sham Shui Po District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sham Shui Po District, Hong Kong",
         "觀塘翠屏道19號路旁停車處 邨翠柳樓)",
         "觀塘翠屏道19號路旁停車處 邨翠柳樓), Hong Kong",
         "觀塘翠屏道19號路旁停車處 邨翠柳樓), Sham Shui Po District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Heung To Middle School, 33, To Yuen Street, Tai Hang Tung, Shek Kip Mei, Sham Shui Po District, Kowloon, Hong Kong, China",
+      "query_used": "to, Sham Shui Po District, Hong Kong"
     },
     "屯門區|屯門寶田邨第四座": {
       "lat": 22.4095309,
@@ -250,24 +246,23 @@
       "query_used": "屯門寶田邨第四座"
     },
     "葵青區|青衣牙鷹洲街路旁停車處(灝景灣車場入口對面)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3353171,
+      "lng": 114.1740162,
       "label": "青衣牙鷹洲街路旁停車處 (灝景灣車場入口對面)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Sham Shui Po District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sham Shui Po District, Hong Kong",
         "青衣牙鷹洲街路旁停車處",
         "青衣牙鷹洲街路旁停車處, Hong Kong",
         "青衣牙鷹洲街路旁停車處, Sham Shui Po District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Heung To Middle School, 33, To Yuen Street, Tai Hang Tung, Shek Kip Mei, Sham Shui Po District, Kowloon, Hong Kong, China",
+      "query_used": "to, Sham Shui Po District, Hong Kong"
     },
     "葵青區|葵涌葵翠邨平台地下(屋邨辦事處樓下)": {
       "lat": 22.315702,
@@ -302,24 +297,23 @@
       "query_used": "Sau Mau Ping Estate, Kwun Tong"
     },
     "大埔區|大埔廣福道43-59號路旁(近中華電力有限公司)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3195857,
+      "lng": 114.2320637,
       "label": "大埔廣福道43-59號路旁 (近中華電力有限公司)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Kwun Tong District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kwun Tong District, Hong Kong",
         "大埔廣福道43-59號路旁",
         "大埔廣福道43-59號路旁, Hong Kong",
         "大埔廣福道43-59號路旁, Kwun Tong District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Sau Mau Ping, Kwun Tong District, Kowloon, Hong Kong, China",
+      "query_used": "to, Kwun Tong District, Hong Kong"
     },
     "九龍城區|土瓜灣靠背壟道(近樂民新村及基道小學)": {
       "lat": 22.4100495,
@@ -371,28 +365,27 @@
       "query_used": "Nga Ying Chau Street, Tsing Yi"
     },
     "元朗區|洪水橋洪福邨洪樂樓": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3517812,
+      "lng": 114.099128,
       "label": "洪水橋洪福邨洪樂樓",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Kwai Tsing District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kwai Tsing District, Hong Kong",
         "洪水橋洪福邨洪樂樓",
         "洪水橋洪福邨洪樂樓, Hong Kong",
         "洪水橋洪福邨洪樂樓, Kwai Tsing District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Liu To Valley, Tsing Yi, Kwai Tsing District, New Territories, Hong Kong, China",
+      "query_used": "to, Kwai Tsing District, Hong Kong"
     },
     "元朗區|元朗元朗文化康樂大樓對面路旁停車處(近馬田村口)": {
-      "lat": 14.5856427,
-      "lng": 121.0594843,
+      "lat": 22.3561994,
+      "lng": 114.1289664,
       "label": "元朗元朗文化康樂大樓對面路旁 停車處(近馬田村口)",
       "source": "nominatim",
       "status": "auto",
@@ -419,28 +412,27 @@
         "元朗元朗文化康樂大樓對面路旁 停車處, Hong Kong",
         "元朗元朗文化康樂大樓對面路旁 停車處, Kwai Tsing District, Hong Kong"
       ],
-      "matched_address": "Café Breton, 18, ADB Avenue, Wack-Wack Greenhills, Mandaluyong, Eastern Manila District, Metro Manila, 1605, Philippines",
-      "query_used": "G/F, Podium"
+      "matched_address": "Kwai Tsui Estate, 999, Kwai Chung, Kwai Tsing District, New Territories, Hong Kong, China",
+      "query_used": "Kwai Tsui Estate, Kwai Chung"
     },
     "屯門區|山景邨景榮樓(近綠色郵筒)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.3517812,
+      "lng": 114.099128,
       "label": "山景邨景榮樓 (近綠色郵筒)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "Kwai Tsing District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kwai Tsing District, Hong Kong",
         "山景邨景榮樓",
         "山景邨景榮樓, Hong Kong",
         "山景邨景榮樓, Kwai Tsing District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Liu To Valley, Tsing Yi, Kwai Tsing District, New Territories, Hong Kong, China",
+      "query_used": "to, Kwai Tsing District, Hong Kong"
     },
     "深水埗區|富昌邨富旺樓": {
       "lat": 22.2792968,
@@ -505,24 +497,23 @@
       "query_used": "Chi Ming Street, Sheung Shui"
     },
     "油尖旺區|尖沙咀麼地道路旁停車處(近K11)": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.5169493,
+      "lng": 114.2135927,
       "label": "尖沙咀麼地道路旁停車處 (近K11)",
       "source": "nominatim",
       "status": "auto",
       "district_en": "North District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, North District, Hong Kong",
         "尖沙咀麼地道路旁停車處",
         "尖沙咀麼地道路旁停車處, Hong Kong",
         "尖沙咀麼地道路旁停車處, North District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "North District, New Territories, Hong Kong, China",
+      "query_used": "to, North District, Hong Kong"
     },
     "九龍城區|土瓜灣炮仗街(近欣榮花園)": {
       "lat": 22.4982763,
@@ -545,24 +536,23 @@
       "query_used": "Wo Fung Street, Fanling"
     },
     "元朗區|天水圍天晴邨晴喜樓": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": 22.5169493,
+      "lng": 114.2135927,
       "label": "天水圍天晴邨晴喜樓",
       "source": "nominatim",
       "status": "auto",
       "district_en": "North District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, North District, Hong Kong",
         "天水圍天晴邨晴喜樓",
         "天水圍天晴邨晴喜樓, Hong Kong",
         "天水圍天晴邨晴喜樓, North District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "North District, New Territories, Hong Kong, China",
+      "query_used": "to, North District, Hong Kong"
     },
     "元朗區|錦田峻巒交通總匯(近PARKYOHO第一期對出PARKCIRCLE商場)": {
       "lat": 22.3179106,
@@ -585,16 +575,15 @@
       "query_used": "Kau Pui Lung Road, To Kwa Wan"
     },
     "荃灣區|馬灣珀麗灣第五座側貝殼廣場": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": null,
+      "lng": null,
       "label": "馬灣珀麗灣第五座側貝殼廣場",
       "source": "nominatim",
-      "status": "auto",
+      "status": "pending",
       "district_en": "Kowloon City District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kowloon City District, Hong Kong",
         "馬灣珀麗灣第五座側貝殼廣場",
@@ -637,16 +626,15 @@
       "query_used": "Tak Long Estate, Kowloon City"
     },
     "離島區|東涌迎東邨迎悅樓側": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": null,
+      "lng": null,
       "label": "東涌迎東邨迎悅樓側",
       "source": "nominatim",
-      "status": "auto",
+      "status": "pending",
       "district_en": "Kowloon City District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Kowloon City District, Hong Kong",
         "東涌迎東邨迎悅樓側",
@@ -689,16 +677,15 @@
       "query_used": "Hung Fuk Estate, Yuen Long"
     },
     "屯門區|富泰邨賢泰樓": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": null,
+      "lng": null,
       "label": "富泰邨賢泰樓",
       "source": "nominatim",
-      "status": "auto",
+      "status": "pending",
       "district_en": "Yuen Long District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Yuen Long District, Hong Kong",
         "富泰邨賢泰樓",
@@ -735,16 +722,15 @@
       "query_used": "Yuen Long Leisure and Cultural Building, Yuen Long"
     },
     "沙田區|馬鞍山利安邨第三期羅馬廣場": {
-      "lat": -10.8855129,
-      "lng": -48.3716912,
+      "lat": null,
+      "lng": null,
       "label": "馬鞍山利安邨第三期羅馬廣場",
       "source": "nominatim",
-      "status": "auto",
+      "status": "pending",
       "district_en": "Yuen Long District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Yuen Long District, Hong Kong",
         "馬鞍山利安邨第三期羅馬廣場",
@@ -841,10 +827,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Islands District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Islands District, Hong Kong",
         "東涌滿東邨滿順樓",
@@ -889,10 +874,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Islands District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Islands District, Hong Kong",
         "油麻地砵蘭街路旁停車處",
@@ -928,10 +912,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Yau Tsim Mong District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Yau Tsim Mong District, Hong Kong",
         "荃灣眾安街",
@@ -964,10 +947,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Yau Tsim Mong District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Yau Tsim Mong District, Hong Kong",
         "香港仔田灣興和街",
@@ -1003,10 +985,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Tsuen Wan District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Tsuen Wan District, Hong Kong",
         "西灣河鯉景灣太康街逸星閣",
@@ -1051,10 +1032,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Tsuen Wan District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Tsuen Wan District, Hong Kong",
         "沙田多石街路旁停車處",
@@ -1200,10 +1180,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Eastern District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Eastern District, Hong Kong",
         "將軍澳健明邨健晴樓",
@@ -1239,10 +1218,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Eastern District",
-      "location_en_raw": "To",
-      "location_en_core": "To",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "To",
         "To, Hong Kong",
         "To, Eastern District, Hong Kong",
         "西營盤干諾道西169-178號及 181號路旁停車處",
@@ -1275,10 +1253,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Sha Tin District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sha Tin District, Hong Kong",
         "大埔寶雅苑逸和閣側",
@@ -1311,10 +1288,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Sha Tin District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Sha Tin District, Hong Kong",
         "牛池灣彩雲邨甘霖樓側空地",
@@ -1347,10 +1323,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Wan Chai District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Wan Chai District, Hong Kong",
         "觀塘順利邨小舞台",
@@ -1383,10 +1358,9 @@
       "source": "nominatim",
       "status": "pending",
       "district_en": "Wan Chai District",
-      "location_en_raw": "to",
-      "location_en_core": "to",
+      "location_en_raw": null,
+      "location_en_core": null,
       "location_en_query_candidates": [
-        "to",
         "to, Hong Kong",
         "to, Wan Chai District, Hong Kong",
         "葵涌大窩口邨富碧樓",
