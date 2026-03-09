@@ -23,7 +23,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -38,7 +38,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -53,7 +53,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "深水埗區",
@@ -70,7 +70,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "深水埗區",
@@ -85,7 +85,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "觀塘區",
@@ -102,7 +102,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "觀塘區",
@@ -117,7 +117,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -134,7 +134,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -149,7 +149,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -166,7 +166,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "大埔區",
@@ -183,7 +183,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "北區",
@@ -230,7 +230,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "九龍城區",
@@ -247,7 +247,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",
@@ -264,7 +264,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",
@@ -279,7 +279,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -296,7 +296,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "深水埗區",
@@ -313,7 +313,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "北區",
@@ -330,7 +330,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "北區",
@@ -345,7 +345,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "油尖旺區",
@@ -362,7 +362,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "九龍城區",
@@ -379,7 +379,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",
@@ -396,7 +396,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",
@@ -411,7 +411,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -426,7 +426,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -441,7 +441,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -458,7 +458,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -473,7 +473,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -488,7 +488,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -503,7 +503,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -520,7 +520,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -535,7 +535,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         }
       ]
     },
@@ -559,7 +559,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -576,7 +576,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -591,7 +591,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "油尖旺區",
@@ -608,7 +608,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "油尖旺區",
@@ -623,7 +623,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -641,7 +641,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -656,7 +656,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -673,7 +673,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "南區",
@@ -690,7 +690,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -707,7 +707,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -742,7 +742,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "東區",
@@ -757,7 +757,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -774,7 +774,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -789,7 +789,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -806,7 +806,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -821,7 +821,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "南區",
@@ -838,7 +838,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -853,7 +853,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -868,7 +868,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -885,7 +885,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "中西區",
@@ -902,7 +902,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "中西區",
@@ -917,7 +917,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "大埔區",
@@ -932,7 +932,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "大埔區",
@@ -947,7 +947,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -962,7 +962,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -977,7 +977,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "觀塘區",
@@ -994,7 +994,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "東區",
@@ -1011,7 +1011,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -1026,7 +1026,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -1041,7 +1041,7 @@
           "lat": null,
           "lng": null,
           "coord_status": "pending",
-          "coord_source": null
+          "coord_source": "nominatim"
         }
       ]
     }
