@@ -188,21 +188,26 @@ def extract_suspension_dates_en(text: str, year: int) -> List[str]:
     return sorted(set(dates))
 
 def clean_core_en_location(text: str) -> str:
+    if not text: return ''
     s = normalize_en_display_text(text)
+    if s.lower() in ['to']: return ''
     s = re.sub(r'\([^)]*\)', '', s)
     s = CORE_PREFIX_RE_EN.sub('', s)
     s = re.sub(r'\s*,\s*', ', ', s)
     s = re.sub(r'\s+', ' ', s)
-    return s.strip(' ,.-')
+    s = s.strip(' ,.-')
+    if s.lower() in ['to']: return ''
+    return s
 
 def build_en_query_candidates(raw_location_en: str, location_en_core: str, district_en: str) -> List[str]:
     candidates: List[str] = []
 
     def add(value: str):
+        if not value: return
         value = normalize_en_display_text(value)
         value = re.sub(r'\s*,\s*', ', ', value)
         value = re.sub(r'\s+', ' ', value).strip(' ,.-')
-        if value and value not in candidates:
+        if value and value.lower() not in ['to', ''] and value not in candidates:
             candidates.append(value)
 
     core = clean_core_en_location(location_en_core or raw_location_en)
@@ -231,7 +236,7 @@ def build_en_query_candidates(raw_location_en: str, location_en_core: str, distr
 
     for value in list(candidates):
         add(f'{value}, Hong Kong')
-        if district_en:
+        if district_en and district_en.lower() not in ['to']:
             add(f'{value}, {district_en}, Hong Kong')
 
     return candidates
@@ -317,6 +322,8 @@ def process_cell_en(cell_text: str, outer_start: str, outer_end: str, year: int)
         loc_text = body[pos:m.start()].strip()
         loc_text = re.sub(r'(?i)\(?Service suspended[\s\S]*?(?:\)|$)', '', loc_text).strip()
         loc_text = normalize_en_display_text(loc_text)
+        if loc_text.lower() == 'to':
+            loc_text = ''
         
         start_date = parse_iso_date(year, month_to_number(m.group(2)), int(m.group(1)))
         end_date = parse_iso_date(year, month_to_number(m.group(4)), int(m.group(3)))
@@ -343,6 +350,8 @@ def process_cell_en(cell_text: str, outer_start: str, outer_end: str, year: int)
     loc_text = body.strip()
     loc_text = re.sub(r'(?i)\(?Service suspended[\s\S]*?(?:\)|$)', '', loc_text).strip()
     loc_text = normalize_en_display_text(loc_text)
+    if loc_text.lower() == 'to':
+        loc_text = ''
     
     if loc_text:
         valid_susp = [d for d in suspension_dates if outer_start <= d <= outer_end]
@@ -438,27 +447,56 @@ def parse_chinese_pdf(pdf_bytes: bytes) -> Dict[int, List[Dict[str, Any]]]:
         json.dump({str(k): v for k, v in coords_placeholder.items()}, df, ensure_ascii=False, indent=2)
     return coords_placeholder
 
+def is_valid_hk_coord(lat, lng):
+    if lat is None or lng is None: return False
+    try:
+        lat, lng = float(lat), float(lng)
+        return 22.10 <= lat <= 22.60 and 113.80 <= lng <= 114.50
+    except:
+        return False
+
+def get_clean_en(cached_val, new_val):
+    v = new_val if new_val else cached_val
+    if v and str(v).strip().lower() in ['to', '', 'null', 'none']:
+        return None
+    return v
+
 def enrich_stop(stop: Dict[str, Any], truck_id: int, seq: int, coords_map: Dict[str, Any]) -> Dict[str, Any]:
     location_key = make_location_key(stop['district'], stop['location'])
     point = coords_map.get(location_key, {})
     stop['stop_id'] = f"t{truck_id}-{stop['start_date']}-{seq:02d}"
     stop['location_key'] = location_key
-    stop['lat'] = point.get('lat')
-    stop['lng'] = point.get('lng')
-    stop['coord_status'] = point.get('status', 'pending')
-    stop['coord_source'] = point.get('source')
-    stop['location_en_raw'] = point.get('location_en_raw', stop.get('location_en_raw'))
-    stop['location_en_core'] = point.get('location_en_core', stop.get('location_en_core'))
+    
+    lat = point.get('lat')
+    lng = point.get('lng')
+    if not is_valid_hk_coord(lat, lng):
+        lat, lng = None, None
+        stop['coord_status'] = 'pending'
+    else:
+        stop['coord_status'] = point.get('status', 'pending')
+        
+    stop['lat'] = lat
+    stop['lng'] = lng
+    stop['coord_source'] = point.get('source') if lat else None
 
-    queries = point.get('location_en_query_candidates', stop.get('location_en_query_candidates', []))
+    # Apply fallback logic, avoiding 'to'
+    stop['location_en_raw'] = get_clean_en(point.get('location_en_raw'), stop.get('location_en_raw'))
+    stop['location_en_core'] = get_clean_en(point.get('location_en_core'), stop.get('location_en_core'))
+    stop['district_en'] = get_clean_en(point.get('district_en'), stop.get('district_en'))
+    stop['location_en'] = get_clean_en(None, stop.get('location_en'))
+
+    queries = stop.get('location_en_query_candidates', [])
     if not queries:
-        queries = []
+        queries = point.get('location_en_query_candidates', [])
+        
+    # filter out bad queries
+    queries = [q for q in queries if q and str(q).strip().lower() not in ['to', '']]
+    
     ch_query = stop.get('location', '')
     if ch_query and ch_query not in queries:
         queries.append(ch_query)
     stop['location_en_query_candidates'] = queries
 
-    stop['district_en'] = point.get('district_en', stop.get('district_en'))
     return stop
 
 def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, Any]) -> Dict[str, Any]:
@@ -480,15 +518,13 @@ def parse_pdfs_to_schedule(pdf_zh: bytes, pdf_en: bytes, coords_data: Dict[str, 
 
         for idx, stop in enumerate(zh_stops):
             en_stop = en_stops[idx] if idx < len(en_stops) else {}
+            # If en_stop doesn't exist, these will be None
             stop['district_en'] = en_stop.get('district_en')
             stop['location_en_raw'] = en_stop.get('raw_location_en')
             stop['location_en'] = en_stop.get('location_en')
             stop['location_en_core'] = en_stop.get('location_en_core')
             
             en_cands = en_stop.get('location_en_query_candidates', [])
-            ch_loc = stop.get('location', '')
-            if ch_loc and ch_loc not in en_cands:
-                en_cands.append(ch_loc)
             stop['location_en_query_candidates'] = en_cands
 
             seqs[truck_id] += 1
