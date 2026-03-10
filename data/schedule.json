@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -93,10 +93,10 @@
           ],
           "stop_id": "t1-2026-01-17-03",
           "location_key": "沙田區|沙田新翠邨新傑樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.4201838,
+          "lng": 114.2079145,
+          "coord_source": "nominatim"
         },
         {
           "district": "深水埗區",
@@ -162,10 +162,10 @@
           ],
           "stop_id": "t1-2026-01-23-05",
           "location_key": "深水埗區|深水埗醫局街路旁停車處(近嘉美中心外)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.4201838,
+          "lng": 114.2079145,
+          "coord_source": "nominatim"
         },
         {
           "district": "觀塘區",
@@ -224,10 +224,10 @@
           ],
           "stop_id": "t1-2026-01-30-07",
           "location_key": "觀塘區|觀塘翠屏道19號路旁停車處(近翠屏(北)邨翠柳樓)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3353171,
+          "lng": 114.1740162,
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -280,10 +280,10 @@
           ],
           "stop_id": "t1-2026-02-09-09",
           "location_key": "葵青區|青衣牙鷹洲街路旁停車處(灝景灣車場入口對面)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3353171,
+          "lng": 114.1740162,
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -351,10 +351,10 @@
           ],
           "stop_id": "t1-2026-02-23-11",
           "location_key": "大埔區|大埔廣福道43-59號路旁(近中華電力有限公司)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3195857,
+          "lng": 114.2320637,
+          "coord_source": "nominatim"
         },
         {
           "district": "北區",
@@ -414,10 +414,10 @@
           ],
           "stop_id": "t1-2026-03-06-13",
           "location_key": "北區|粉嶺和豐路路旁停車處(近28墟商場)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3195857,
+          "lng": 114.2320637,
+          "coord_source": "nominatim"
         },
         {
           "district": "九龍城區",
@@ -508,10 +508,10 @@
           ],
           "stop_id": "t1-2026-03-16-16",
           "location_key": "元朗區|洪水橋洪福邨洪樂樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3517812,
+          "lng": 114.099128,
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",
@@ -548,10 +548,10 @@
           ],
           "stop_id": "t1-2026-03-20-17",
           "location_key": "元朗區|元朗元朗文化康樂大樓對面路旁停車處(近馬田村口)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3561994,
+          "lng": 114.1289664,
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -577,10 +577,10 @@
           ],
           "stop_id": "t1-2026-03-23-18",
           "location_key": "屯門區|山景邨景榮樓(近綠色郵筒)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3517812,
+          "lng": 114.099128,
+          "coord_source": "nominatim"
         },
         {
           "district": "深水埗區",
@@ -694,10 +694,10 @@
           ],
           "stop_id": "t1-2026-04-13-22",
           "location_key": "油尖旺區|尖沙咀麼地道路旁停車處(近K11)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.5169493,
+          "lng": 114.2135927,
+          "coord_source": "nominatim"
         },
         {
           "district": "九龍城區",
@@ -752,10 +752,10 @@
           ],
           "stop_id": "t1-2026-04-27-24",
           "location_key": "元朗區|天水圍天晴邨晴喜樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.5169493,
+          "lng": 114.2135927,
+          "coord_source": "nominatim"
         },
         {
           "district": "元朗區",

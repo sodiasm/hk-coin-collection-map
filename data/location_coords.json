@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-09",
+  "updated_at": "2026-03-10",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -575,11 +575,11 @@
       "query_used": "Kau Pui Lung Road, To Kwa Wan"
     },
     "荃灣區|馬灣珀麗灣第五座側貝殼廣場": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3167582,
+      "lng": 114.1895402,
       "label": "馬灣珀麗灣第五座側貝殼廣場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -590,8 +590,8 @@
         "馬灣珀麗灣第五座側貝殼廣場, Hong Kong",
         "馬灣珀麗灣第五座側貝殼廣場, Kowloon City District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "To Kwa Wan, Kowloon City District, Kowloon, Hong Kong, China",
+      "query_used": "to, Kowloon City District, Hong Kong"
     },
     "荃灣區|荃灣海貴路公共運輸交匯處小巴總站旁": {
       "lat": 22.3296317,
@@ -626,11 +626,11 @@
       "query_used": "Tak Long Estate, Kowloon City"
     },
     "離島區|東涌迎東邨迎悅樓側": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3167582,
+      "lng": 114.1895402,
       "label": "東涌迎東邨迎悅樓側",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Kowloon City District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -641,8 +641,8 @@
         "東涌迎東邨迎悅樓側, Hong Kong",
         "東涌迎東邨迎悅樓側, Kowloon City District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "To Kwa Wan, Kowloon City District, Kowloon, Hong Kong, China",
+      "query_used": "to, Kowloon City District, Hong Kong"
     },
     "離島區|赤鱲角暢達路南(地面運輸中心側)": {
       "lat": 22.4375597,
@@ -677,11 +677,11 @@
       "query_used": "Hung Fuk Estate, Yuen Long"
     },
     "屯門區|富泰邨賢泰樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4407018,
+      "lng": 113.9795168,
       "label": "富泰邨賢泰樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -692,8 +692,8 @@
         "富泰邨賢泰樓, Hong Kong",
         "富泰邨賢泰樓, Yuen Long District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Ling To Monastery, Kong Sham Western Highway, 屯馬綫緊急救援入口EAP26, San Sang San Tsuen, Yuen Long District, New Territories, Hong Kong, China",
+      "query_used": "to, Yuen Long District, Hong Kong"
     },
     "屯門區|屯門青山灣黃金海岸商場側": {
       "lat": 22.4412348,
@@ -722,11 +722,11 @@
       "query_used": "Yuen Long Leisure and Cultural Building, Yuen Long"
     },
     "沙田區|馬鞍山利安邨第三期羅馬廣場": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4407018,
+      "lng": 113.9795168,
       "label": "馬鞍山利安邨第三期羅馬廣場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -737,8 +737,8 @@
         "馬鞍山利安邨第三期羅馬廣場, Hong Kong",
         "馬鞍山利安邨第三期羅馬廣場, Yuen Long District, Hong Kong"
       ],
-      "matched_address": "Tocantins, North Region, Brazil",
-      "query_used": "to"
+      "matched_address": "Ling To Monastery, Kong Sham Western Highway, 屯馬綫緊急救援入口EAP26, San Sang San Tsuen, Yuen Long District, New Territories, Hong Kong, China",
+      "query_used": "to, Yuen Long District, Hong Kong"
     },
     "沙田區|馬鞍山鞍祿街路旁停車處(鞍誠街花園外)": {
       "lat": 22.3962265,
@@ -767,11 +767,11 @@
       "query_used": "King Wing House"
     },
     "元朗區|天水圍天瑞邨天瑞社區中心": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.4559539,
+      "lng": 113.9979337,
       "label": "天水圍天瑞邨天瑞社區中心",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yuen Long District",
       "location_en_raw": "Tin Shui Community Centre, Tin Shui Estate, Tin Shui Wai",
       "location_en_core": "Tin Shui Community Centre, Tin Shui Estate, Tin Shui Wai",
@@ -794,14 +794,16 @@
         "天水圍天瑞邨天瑞社區中心",
         "天水圍天瑞邨天瑞社區中心, Hong Kong",
         "天水圍天瑞邨天瑞社區中心, Yuen Long District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tin Shui Estate, 9, Tin Shui Wai Town, Yuen Long District, New Territories, Hong Kong, China",
+      "query_used": "Tin Shui Estate, Tin Shui Wai"
     },
     "離島區|愉景灣愉景廣場愉景灣郵局側": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2993764,
+      "lng": 114.01457,
       "label": "愉景灣愉景廣場愉景灣郵局側",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Islands District",
       "location_en_raw": "Adjacent to Discovery Bay Post Office at Discovery Bay Plaza, Discovery Bay",
       "location_en_core": "Discovery Bay Post Office at Discovery Bay Plaza, Discovery Bay",
@@ -818,14 +820,16 @@
         "愉景灣愉景廣場愉景灣郵局側",
         "愉景灣愉景廣場愉景灣郵局側, Hong Kong",
         "愉景灣愉景廣場愉景灣郵局側, Islands District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Discovery Bay, Lantau, Islands District, New Territories, Hong Kong, China",
+      "query_used": "Discovery Bay"
     },
     "離島區|東涌滿東邨滿順樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2374914,
+      "lng": 113.9836098,
       "label": "東涌滿東邨滿順樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Islands District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -835,14 +839,16 @@
         "東涌滿東邨滿順樓",
         "東涌滿東邨滿順樓, Hong Kong",
         "東涌滿東邨滿順樓, Islands District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Islands District, New Territories, Hong Kong, China",
+      "query_used": "to, Islands District, Hong Kong"
     },
     "油尖旺區|佐敦廣東道575號": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2769756,
+      "lng": 113.9330821,
       "label": "佐敦廣東道 575 號",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Islands District",
       "location_en_raw": "Mun Shun House, Mun Tung Estate, Tung Chung",
       "location_en_core": "Mun Shun House, Mun Tung Estate, Tung Chung",
@@ -865,14 +871,16 @@
         "佐敦廣東道 575 號",
         "佐敦廣東道 575 號, Hong Kong",
         "佐敦廣東道 575 號, Islands District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Mun Tung Estate, 7, Tung Chung Valley, Lantau, Islands District, Tung Chung, Hong Kong, China",
+      "query_used": "Mun Tung Estate, Tung Chung"
     },
     "油尖旺區|油麻地砵蘭街路旁停車處(砵蘭街/文明里休憩處旁)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2374914,
+      "lng": 113.9836098,
       "label": "油麻地砵蘭街路旁停車處 (砵蘭街/文明里休憩處旁)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Islands District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -882,14 +890,16 @@
         "油麻地砵蘭街路旁停車處",
         "油麻地砵蘭街路旁停車處, Hong Kong",
         "油麻地砵蘭街路旁停車處, Islands District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Islands District, New Territories, Hong Kong, China",
+      "query_used": "to, Islands District, Hong Kong"
     },
     "灣仔區|灣仔港灣徑灣景中心路旁停車處(新鴻基中心對面)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3074082,
+      "lng": 114.1683142,
       "label": "灣仔港灣徑灣景中心路旁停車處 (新鴻基中心對面)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yau Tsim Mong District",
       "location_en_raw": "Lay-by outside 575 Canton Road, Jordan",
       "location_en_core": "575 Canton Road, Jordan",
@@ -903,14 +913,16 @@
         "灣仔港灣徑灣景中心路旁停車處",
         "灣仔港灣徑灣景中心路旁停車處, Hong Kong",
         "灣仔港灣徑灣景中心路旁停車處, Yau Tsim Mong District, Hong Kong"
-      ]
+      ],
+      "matched_address": "575, Canton Road, Kwun Chung, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, 999077, China",
+      "query_used": "575 Canton Road, Jordan"
     },
     "荃灣區|荃灣眾安街(荃灣千色匯一期外)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3079696,
+      "lng": 114.1618458,
       "label": "荃灣眾安街(荃灣千色匯一期外)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yau Tsim Mong District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -920,14 +932,16 @@
         "荃灣眾安街",
         "荃灣眾安街, Hong Kong",
         "荃灣眾安街, Yau Tsim Mong District, Hong Kong"
-      ]
+      ],
+      "matched_address": "To Wah Road, Ferry Point, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, 999077, China",
+      "query_used": "to, Yau Tsim Mong District, Hong Kong"
     },
     "荃灣區|荃灣福來邨永定樓對出": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3136851,
+      "lng": 114.1698623,
       "label": "荃灣福來邨永定樓對出",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yau Tsim Mong District",
       "location_en_raw": "Lay-by outside Portland Street, Yau Ma Tei (adjacent to Portland Street/Man Ming Lane Sitting out Area)",
       "location_en_core": "Portland Street, Yau Ma Tei",
@@ -938,14 +952,16 @@
         "荃灣福來邨永定樓對出",
         "荃灣福來邨永定樓對出, Hong Kong",
         "荃灣福來邨永定樓對出, Yau Tsim Mong District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Portland Street, Ferry Point, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+      "query_used": "Portland Street, Yau Ma Tei"
     },
     "南區|香港仔田灣興和街(近港灣安老院)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3079696,
+      "lng": 114.1618458,
       "label": "香港仔田灣興和街 (近港灣安老院)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Yau Tsim Mong District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -955,14 +971,16 @@
         "香港仔田灣興和街",
         "香港仔田灣興和街, Hong Kong",
         "香港仔田灣興和街, Yau Tsim Mong District, Hong Kong"
-      ]
+      ],
+      "matched_address": "To Wah Road, Ferry Point, Yau Ma Tei, Yau Tsim Mong District, Kowloon, Hong Kong, 999077, China",
+      "query_used": "to, Yau Tsim Mong District, Hong Kong"
     },
     "黃大仙區|慈雲山慈康邨康秀樓及康德樓之間露天車位(欣華街側)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2804588,
+      "lng": 114.1762225,
       "label": "慈雲山慈康邨康秀樓及康德樓之 間露天車位(欣華街側)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wan Chai District",
       "location_en_raw": "Lay-by outside Causeway Centre, Harbour Drive (opposite to Sun Hung Kai Centre)",
       "location_en_core": "Causeway Centre, Harbour Drive",
@@ -976,14 +994,16 @@
         "慈雲山慈康邨康秀樓及康德樓之 間露天車位",
         "慈雲山慈康邨康秀樓及康德樓之 間露天車位, Hong Kong",
         "慈雲山慈康邨康秀樓及康德樓之 間露天車位, Wan Chai District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Causeway Centre, Wan Chai North, Wan Chai District, Hong Kong Island, Hong Kong, China",
+      "query_used": "Causeway Centre"
     },
     "東區|西灣河鯉景灣太康街逸星閣": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3478355,
+      "lng": 114.0634092,
       "label": "西灣河鯉景灣太康街逸星閣",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Tsuen Wan District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -993,14 +1013,16 @@
         "西灣河鯉景灣太康街逸星閣",
         "西灣河鯉景灣太康街逸星閣, Hong Kong",
         "西灣河鯉景灣太康街逸星閣, Tsuen Wan District, Hong Kong"
-      ]
+      ],
+      "matched_address": "To Tei Kung Kok, Tsuen Wan District, New Territories, Hong Kong, China",
+      "query_used": "to, Tsuen Wan District, Hong Kong"
     },
     "東區|北角城市花園道路旁停車處(近城市花園公園)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3734581,
+      "lng": 114.1138741,
       "label": "北角城市花園道路旁停車處 (近城市花園公園)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Tsuen Wan District",
       "location_en_raw": "Outside Wing Ting House, Fuk Loi Estate, Tsuen Wan",
       "location_en_core": "Wing Ting House, Fuk Loi Estate, Tsuen Wan",
@@ -1023,14 +1045,16 @@
         "北角城市花園道路旁停車處",
         "北角城市花園道路旁停車處, Hong Kong",
         "北角城市花園道路旁停車處, Tsuen Wan District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Fuk Loi Estate, 55, Tsuen Wan Town, Tsuen Wan District, New Territories, Hong Kong, China",
+      "query_used": "Fuk Loi Estate, Tsuen Wan"
     },
     "沙田區|沙田多石街路旁停車處(近水泉澳邨水泉澳廣場對出)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3478355,
+      "lng": 114.0634092,
       "label": "沙田多石街路旁停車處 (近水泉澳邨水泉澳廣場對出)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Tsuen Wan District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1040,14 +1064,16 @@
         "沙田多石街路旁停車處",
         "沙田多石街路旁停車處, Hong Kong",
         "沙田多石街路旁停車處, Tsuen Wan District, Hong Kong"
-      ]
+      ],
+      "matched_address": "To Tei Kung Kok, Tsuen Wan District, New Territories, Hong Kong, China",
+      "query_used": "to, Tsuen Wan District, Hong Kong"
     },
     "沙田區|沙田上禾輋路旁停車處(沙田政府合署外)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2498273,
+      "lng": 114.1481437,
       "label": "沙田上禾輋路旁停車處 (沙田政府合署外)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Southern District",
       "location_en_raw": "Hing Wo Street, Tin Wan, Aberdeen (near Kong Wan Care Home)",
       "location_en_core": "Hing Wo Street, Tin Wan, Aberdeen",
@@ -1064,14 +1090,16 @@
         "沙田上禾輋路旁停車處",
         "沙田上禾輋路旁停車處, Hong Kong",
         "沙田上禾輋路旁停車處, Southern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hing Wo Street, Tin Wan, Southern District, Hong Kong Island, Hong Kong, 999077, China",
+      "query_used": "Hing Wo Street, Tin Wan"
     },
     "灣仔區|天后留仙街路旁停車處(近港鐵天后站A2出口)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3492155,
+      "lng": 114.1857978,
       "label": "天后留仙街路旁停車處 (近港鐵天后站A2出口)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Southern District",
       "location_en_raw": "(Lunar New Year holidays and machine maintenance)",
       "location_en_core": "",
@@ -1081,14 +1109,16 @@
         "天后留仙街路旁停車處",
         "天后留仙街路旁停車處, Hong Kong",
         "天后留仙街路旁停車處, Southern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, China",
+      "query_used": "Hong Kong"
     },
     "灣仔區|大坑蓮花宮西街(中華大廈對出)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3475041,
+      "lng": 114.2028408,
       "label": "大坑蓮花宮西街 (中華大廈對出)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wong Tai Sin District",
       "location_en_raw": "Open parking area between Hong Sau House and Hong Tak House, Tsz Hong Estate, Tsz Wan Shan (Adjacent to Yan Wah Street)",
       "location_en_core": "Hong Sau House and Hong Tak House, Tsz Hong Estate, Tsz Wan Shan",
@@ -1114,7 +1144,9 @@
         "大坑蓮花宮西街",
         "大坑蓮花宮西街, Hong Kong",
         "大坑蓮花宮西街, Wong Tai Sin District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Tsz Hong Estate, 75, Tsz Wan Shan, Wong Tai Sin District, Kowloon, Hong Kong, China",
+      "query_used": "Tsz Hong Estate, Tsz Wan Shan"
     },
     "南區|鴨脷洲海怡路海怡半島第11座對開路旁": {
       "lat": null,
