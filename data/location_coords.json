@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-10",
+  "updated_at": "2026-03-11",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -1149,11 +1149,11 @@
       "query_used": "Tsz Hong Estate, Tsz Wan Shan"
     },
     "南區|鴨脷洲海怡路海怡半島第11座對開路旁": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3076543,
+      "lng": 114.2539425,
       "label": "鴨脷洲海怡路海怡半島第11座 對開路旁",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Sai Kung District",
       "location_en_raw": "Adjacent to Choi Fu House, Choi Ming Court, Tiu Keng Leng (near the cover of footbridge, Choi Ming Shopping Centre)",
       "location_en_core": "Choi Fu House, Choi Ming Court, Tiu Keng Leng",
@@ -1176,14 +1176,16 @@
         "鴨脷洲海怡路海怡半島第11座 對開路旁",
         "鴨脷洲海怡路海怡半島第11座 對開路旁, Hong Kong",
         "鴨脷洲海怡路海怡半島第11座 對開路旁, Sai Kung District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Choi Ming Court, 3, Tseung Kwan O South, Tseung Kwan O Town Centre, Tseung Kwan O, Sai Kung District, China",
+      "query_used": "Choi Ming Court, Tiu Keng Leng"
     },
     "西貢區|西貢賽馬會大會堂停車場": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2863223,
+      "lng": 114.2235142,
       "label": "西貢賽馬會大會堂停車場",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Eastern District",
       "location_en_raw": "Yat Sing Mansion, Tai Hong Street, Lei King Wan Sai Wan Ho",
       "location_en_core": "Yat Sing Mansion, Tai Hong Street, Lei King Wan Sai Wan Ho",
@@ -1203,14 +1205,16 @@
         "西貢賽馬會大會堂停車場",
         "西貢賽馬會大會堂停車場, Hong Kong",
         "西貢賽馬會大會堂停車場, Eastern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Yat Sing Mansion, 49, Tai Hong Street, Kornhill, Sai Wan Ho, Chai Wan District, A Kung Ngam, Eastern District, Hong Kong Island, China",
+      "query_used": "Yat Sing Mansion, Tai Hong Street"
     },
     "西貢區|將軍澳健明邨健晴樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "將軍澳健明邨健晴樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Eastern District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1220,14 +1224,16 @@
         "將軍澳健明邨健晴樓",
         "將軍澳健明邨健晴樓, Hong Kong",
         "將軍澳健明邨健晴樓, Eastern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "to, Hong Kong"
     },
     "沙田區|大圍美林邨美桃樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2908703,
+      "lng": 114.1943536,
       "label": "大圍美林邨美桃樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Eastern District",
       "location_en_raw": "Lay-by on City Garden Road, North Point (near City Garden Park)",
       "location_en_core": "City Garden Road, North Point",
@@ -1241,14 +1247,16 @@
         "大圍美林邨美桃樓",
         "大圍美林邨美桃樓, Hong Kong",
         "大圍美林邨美桃樓, Eastern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "City Garden Road, Fort Street Area, Fortress Hill, North Point, Eastern District, Hong Kong Island, China",
+      "query_used": "City Garden Road, North Point"
     },
     "中西區|西營盤干諾道西169-178號及181號路旁停車處(近均益大廈二期及滙港中心)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "西營盤干諾道西169-178號及 181號路旁停車處 (近均益大廈二期及滙港中心)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Eastern District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1258,14 +1266,16 @@
         "西營盤干諾道西169-178號及 181號路旁停車處",
         "西營盤干諾道西169-178號及 181號路旁停車處, Hong Kong",
         "西營盤干諾道西169-178號及 181號路旁停車處, Eastern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "To, Hong Kong"
     },
     "中西區|西環堅尼地城新海旁街路旁停車處(近堅尼地城消防局)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3739619,
+      "lng": 114.1976186,
       "label": "西環堅尼地城新海旁街路旁 停車處 (近堅尼地城消防局)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Sha Tin District",
       "location_en_raw": "Lay-by on To Shek Street, Sha Tin (nearby area outside Shui Chuen O Plaza, Shui Chuen O Estate)",
       "location_en_core": "To Shek Street, Sha Tin",
@@ -1276,14 +1286,16 @@
         "西環堅尼地城新海旁街路旁 停車處",
         "西環堅尼地城新海旁街路旁 停車處, Hong Kong",
         "西環堅尼地城新海旁街路旁 停車處, Sha Tin District, Hong Kong"
-      ]
+      ],
+      "matched_address": "To Shek Street, Shui Chuen O Estate, Shui Chuen O, Tse Uk Village, Sha Tin, Sha Tin District, China",
+      "query_used": "To Shek Street, Sha Tin"
     },
     "大埔區|大埔寶雅苑逸和閣側(近太和體育館)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "大埔寶雅苑逸和閣側 (近太和體育館)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Sha Tin District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1293,14 +1305,16 @@
         "大埔寶雅苑逸和閣側",
         "大埔寶雅苑逸和閣側, Hong Kong",
         "大埔寶雅苑逸和閣側, Sha Tin District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "to, Hong Kong"
     },
     "大埔區|大埔富亨邨亨翠樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.3855247,
+      "lng": 114.1868988,
       "label": "大埔富亨邨亨翠樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Sha Tin District",
       "location_en_raw": "Lay-by on Sheung Wo Che Road, Sha Tin (outside Sha Tin Government Offices)",
       "location_en_core": "Sheung Wo Che Road, Sha Tin",
@@ -1311,14 +1325,16 @@
         "大埔富亨邨亨翠樓",
         "大埔富亨邨亨翠樓, Hong Kong",
         "大埔富亨邨亨翠樓, Sha Tin District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Sha Tin Government Offices, 1, Sheung Wo Che Road, Sha Tin Town Centre, Tin Liu, Pai Tau Tsuen, Sha Tin District, China",
+      "query_used": "Sheung Wo Che Road, Sha Tin"
     },
     "黃大仙區|牛池灣彩雲(一)邨甘霖樓側空地(近天主教甘霖幼稚園)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "牛池灣彩雲(一)邨甘霖樓側空地 (近天主教甘霖幼稚園)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Sha Tin District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1328,14 +1344,16 @@
         "牛池灣彩雲邨甘霖樓側空地",
         "牛池灣彩雲邨甘霖樓側空地, Hong Kong",
         "牛池灣彩雲邨甘霖樓側空地, Sha Tin District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "to, Hong Kong"
     },
     "黃大仙區|牛池灣彩雲(二)邨玉宇樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.283004,
+      "lng": 114.19157,
       "label": "牛池灣彩雲(二)邨玉宇樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wan Chai District",
       "location_en_raw": "Lay-by on Lau Sin Street, Tin Hau (Near Exit A2, Tin Hau MTR station)",
       "location_en_core": "Lau Sin Street, Tin Hau",
@@ -1346,14 +1364,16 @@
         "牛池灣彩雲邨玉宇樓",
         "牛池灣彩雲邨玉宇樓, Hong Kong",
         "牛池灣彩雲邨玉宇樓, Wan Chai District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Lau Sin Street, Tin Hau, Causeway Bay, Wan Chai District, Hong Kong Island, China",
+      "query_used": "Lau Sin Street, Tin Hau"
     },
     "觀塘區|觀塘順利邨小舞台(近利康樓)": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "觀塘順利邨小舞台 (近利康樓)",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wan Chai District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1363,14 +1383,16 @@
         "觀塘順利邨小舞台",
         "觀塘順利邨小舞台, Hong Kong",
         "觀塘順利邨小舞台, Wan Chai District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "to, Hong Kong"
     },
     "東區|小西灣邨瑞隆樓側空地": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2798134,
+      "lng": 114.1926022,
       "label": "小西灣邨瑞隆樓側空地",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wan Chai District",
       "location_en_raw": "Lin Fa Kung Street West, Tai Hang (Near China Tower)",
       "location_en_core": "Lin Fa Kung Street West, Tai Hang",
@@ -1381,14 +1403,16 @@
         "小西灣邨瑞隆樓側空地",
         "小西灣邨瑞隆樓側空地, Hong Kong",
         "小西灣邨瑞隆樓側空地, Wan Chai District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Lin Fa Kung Street West, Tai Hang, Wan Chai District, Hong Kong Island, China",
+      "query_used": "Lin Fa Kung Street West, Tai Hang"
     },
     "葵青區|葵涌大窩口邨富碧樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2792968,
+      "lng": 114.1628907,
       "label": "葵涌大窩口邨富碧樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Wan Chai District",
       "location_en_raw": null,
       "location_en_core": null,
@@ -1398,14 +1422,16 @@
         "葵涌大窩口邨富碧樓",
         "葵涌大窩口邨富碧樓, Hong Kong",
         "葵涌大窩口邨富碧樓, Wan Chai District, Hong Kong"
-      ]
+      ],
+      "matched_address": "Hong Kong, Central and Western District, Hong Kong Island, 999077, China",
+      "query_used": "to, Hong Kong"
     },
     "葵青區|葵涌葵聯邨聯欣樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.242841,
+      "lng": 114.1488018,
       "label": "葵涌葵聯邨聯欣樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": "Southern District",
       "location_en_raw": "South Horizon Drive outside Block 11, South Horizons, Ap Lei Chau",
       "location_en_core": "South Horizon Drive outside Block 11, South Horizons, Ap Lei Chau",
@@ -1422,7 +1448,9 @@
         "葵涌葵聯邨聯欣樓",
         "葵涌葵聯邨聯欣樓, Hong Kong",
         "葵涌葵聯邨聯欣樓, Southern District, Hong Kong"
-      ]
+      ],
+      "matched_address": "South Horizons, Yi Nam Road, Shek Pai Wan, Ap Lei Chau, Southern District, Hong Kong Island, 999077, China",
+      "query_used": "South Horizons, Ap Lei Chau"
     }
   }
 }

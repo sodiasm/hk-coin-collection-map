@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-11",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -806,10 +806,10 @@
           ],
           "stop_id": "t1-2026-05-05-26",
           "location_key": "荃灣區|馬灣珀麗灣第五座側貝殼廣場",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3167582,
+          "lng": 114.1895402,
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -873,10 +873,10 @@
           ],
           "stop_id": "t1-2026-05-11-28",
           "location_key": "離島區|東涌迎東邨迎悅樓側",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3167582,
+          "lng": 114.1895402,
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -939,10 +939,10 @@
           ],
           "stop_id": "t1-2026-05-18-30",
           "location_key": "屯門區|富泰邨賢泰樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.4407018,
+          "lng": 113.9795168,
+          "coord_source": "nominatim"
         },
         {
           "district": "屯門區",
@@ -1000,10 +1000,10 @@
           ],
           "stop_id": "t1-2026-05-25-32",
           "location_key": "沙田區|馬鞍山利安邨第三期羅馬廣場",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.4407018,
+          "lng": 113.9795168,
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -1082,10 +1082,10 @@
           ],
           "stop_id": "t2-2026-01-05-01",
           "location_key": "元朗區|天水圍天瑞邨天瑞社區中心",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.4559539,
+          "lng": 113.9979337,
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -1117,10 +1117,10 @@
           ],
           "stop_id": "t2-2026-01-12-02",
           "location_key": "離島區|愉景灣愉景廣場愉景灣郵局側",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2993764,
+          "lng": 114.01457,
+          "coord_source": "nominatim"
         },
         {
           "district": "離島區",
@@ -1143,10 +1143,10 @@
           ],
           "stop_id": "t2-2026-01-15-03",
           "location_key": "離島區|東涌滿東邨滿順樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2374914,
+          "lng": 113.9836098,
+          "coord_source": "nominatim"
         },
         {
           "district": "油尖旺區",
@@ -1184,10 +1184,10 @@
           ],
           "stop_id": "t2-2026-01-19-04",
           "location_key": "油尖旺區|佐敦廣東道575號",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2769756,
+          "lng": 113.9330821,
+          "coord_source": "nominatim"
         },
         {
           "district": "油尖旺區",
@@ -1211,10 +1211,10 @@
           ],
           "stop_id": "t2-2026-01-23-05",
           "location_key": "油尖旺區|油麻地砵蘭街路旁停車處(砵蘭街/文明里休憩處旁)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2374914,
+          "lng": 113.9836098,
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -1245,10 +1245,10 @@
           ],
           "stop_id": "t2-2026-01-26-06",
           "location_key": "灣仔區|灣仔港灣徑灣景中心路旁停車處(新鴻基中心對面)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3074082,
+          "lng": 114.1683142,
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -1272,10 +1272,10 @@
           ],
           "stop_id": "t2-2026-02-02-07",
           "location_key": "荃灣區|荃灣眾安街(荃灣千色匯一期外)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3079696,
+          "lng": 114.1618458,
+          "coord_source": "nominatim"
         },
         {
           "district": "荃灣區",
@@ -1301,10 +1301,10 @@
           ],
           "stop_id": "t2-2026-02-06-08",
           "location_key": "荃灣區|荃灣福來邨永定樓對出",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3136851,
+          "lng": 114.1698623,
+          "coord_source": "nominatim"
         },
         {
           "district": "南區",
@@ -1330,10 +1330,10 @@
           ],
           "stop_id": "t2-2026-02-09-09",
           "location_key": "南區|香港仔田灣興和街(近港灣安老院)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3079696,
+          "lng": 114.1618458,
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -1363,10 +1363,10 @@
           ],
           "stop_id": "t2-2026-02-23-10",
           "location_key": "黃大仙區|慈雲山慈康邨康秀樓及康德樓之間露天車位(欣華街側)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2804588,
+          "lng": 114.1762225,
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -1422,10 +1422,10 @@
           ],
           "stop_id": "t2-2026-03-09-12",
           "location_key": "東區|西灣河鯉景灣太康街逸星閣",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3478355,
+          "lng": 114.0634092,
+          "coord_source": "nominatim"
         },
         {
           "district": "東區",
@@ -1462,10 +1462,10 @@
           ],
           "stop_id": "t2-2026-03-13-13",
           "location_key": "東區|北角城市花園道路旁停車處(近城市花園公園)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3734581,
+          "lng": 114.1138741,
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -1491,10 +1491,10 @@
           ],
           "stop_id": "t2-2026-03-16-14",
           "location_key": "沙田區|沙田多石街路旁停車處(近水泉澳邨水泉澳廣場對出)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3478355,
+          "lng": 114.0634092,
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -1525,10 +1525,10 @@
           ],
           "stop_id": "t2-2026-03-20-15",
           "location_key": "沙田區|沙田上禾輋路旁停車處(沙田政府合署外)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2498273,
+          "lng": 114.1481437,
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -1554,10 +1554,10 @@
           ],
           "stop_id": "t2-2026-03-23-16",
           "location_key": "灣仔區|天后留仙街路旁停車處(近港鐵天后站A2出口)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3492155,
+          "lng": 114.1857978,
+          "coord_source": "nominatim"
         },
         {
           "district": "灣仔區",
@@ -1597,10 +1597,10 @@
           ],
           "stop_id": "t2-2026-03-27-17",
           "location_key": "灣仔區|大坑蓮花宮西街(中華大廈對出)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3475041,
+          "lng": 114.2028408,
+          "coord_source": "nominatim"
         },
         {
           "district": "南區",
