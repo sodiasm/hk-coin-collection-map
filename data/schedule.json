@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-03-11",
+  "last_updated": "2026-03-12",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1638,10 +1638,10 @@
           ],
           "stop_id": "t2-2026-03-30-18",
           "location_key": "南區|鴨脷洲海怡路海怡半島第11座對開路旁",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3076543,
+          "lng": 114.2539425,
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -1674,10 +1674,10 @@
           ],
           "stop_id": "t2-2026-04-06-19",
           "location_key": "西貢區|西貢賽馬會大會堂停車場",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2863223,
+          "lng": 114.2235142,
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
@@ -1700,10 +1700,10 @@
           ],
           "stop_id": "t2-2026-04-10-20",
           "location_key": "西貢區|將軍澳健明邨健晴樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "沙田區",
@@ -1732,10 +1732,10 @@
           ],
           "stop_id": "t2-2026-04-13-21",
           "location_key": "沙田區|大圍美林邨美桃樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2908703,
+          "lng": 114.1943536,
+          "coord_source": "nominatim"
         },
         {
           "district": "中西區",
@@ -1761,10 +1761,10 @@
           ],
           "stop_id": "t2-2026-04-20-22",
           "location_key": "中西區|西營盤干諾道西169-178號及181號路旁停車處(近均益大廈二期及滙港中心)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "中西區",
@@ -1789,10 +1789,10 @@
           ],
           "stop_id": "t2-2026-04-24-23",
           "location_key": "中西區|西環堅尼地城新海旁街路旁停車處(近堅尼地城消防局)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3739619,
+          "lng": 114.1976186,
+          "coord_source": "nominatim"
         },
         {
           "district": "大埔區",
@@ -1816,10 +1816,10 @@
           ],
           "stop_id": "t2-2026-04-27-24",
           "location_key": "大埔區|大埔寶雅苑逸和閣側(近太和體育館)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "大埔區",
@@ -1843,10 +1843,10 @@
           ],
           "stop_id": "t2-2026-05-02-25",
           "location_key": "大埔區|大埔富亨邨亨翠樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.3855247,
+          "lng": 114.1868988,
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -1870,10 +1870,10 @@
           ],
           "stop_id": "t2-2026-05-04-26",
           "location_key": "黃大仙區|牛池灣彩雲(一)邨甘霖樓側空地(近天主教甘霖幼稚園)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "黃大仙區",
@@ -1898,10 +1898,10 @@
           ],
           "stop_id": "t2-2026-05-08-27",
           "location_key": "黃大仙區|牛池灣彩雲(二)邨玉宇樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.283004,
+          "lng": 114.19157,
+          "coord_source": "nominatim"
         },
         {
           "district": "觀塘區",
@@ -1927,10 +1927,10 @@
           ],
           "stop_id": "t2-2026-05-11-28",
           "location_key": "觀塘區|觀塘順利邨小舞台(近利康樓)",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "東區",
@@ -1956,10 +1956,10 @@
           ],
           "stop_id": "t2-2026-05-18-29",
           "location_key": "東區|小西灣邨瑞隆樓側空地",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2798134,
+          "lng": 114.1926022,
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -1982,10 +1982,10 @@
           ],
           "stop_id": "t2-2026-05-26-30",
           "location_key": "葵青區|葵涌大窩口邨富碧樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2792968,
+          "lng": 114.1628907,
+          "coord_source": "nominatim"
         },
         {
           "district": "葵青區",
@@ -2015,10 +2015,10 @@
           ],
           "stop_id": "t2-2026-05-29-31",
           "location_key": "葵青區|葵涌葵聯邨聯欣樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.242841,
+          "lng": 114.1488018,
+          "coord_source": "nominatim"
         }
       ]
     }
