@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1038,6 +1038,319 @@
           "lat": 22.3962265,
           "lng": 113.9648302,
           "coord_source": "nominatim"
+        },
+        {
+          "district": "黃大仙區",
+          "location": "黃大仙翠竹花園第六座",
+          "raw_location": "黃大仙翠竹花園第六座* (6月10日星期三及 6月13日星期六暫停)",
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-14",
+          "suspended_dates": [
+            "2026-06-10",
+            "2026-06-13"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "黃大仙翠竹花園第六座"
+          ],
+          "stop_id": "t1-2026-06-08-34",
+          "location_key": "黃大仙區|黃大仙翠竹花園第六座",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "深水埗區",
+          "location": "深水埗東沙島街 (近東蘭閣B座)",
+          "raw_location": "深水埗東沙島街 (近東蘭閣B座) (6月17日星期三暫停)",
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-21",
+          "suspended_dates": [
+            "2026-06-17"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "深水埗東沙島街 (近東蘭閣B座)"
+          ],
+          "stop_id": "t1-2026-06-15-35",
+          "location_key": "深水埗區|深水埗東沙島街(近東蘭閣B座)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "油尖旺區",
+          "location": "旺角上海街朗豪坊門外路旁 停車處 (近亞皆老街交界)",
+          "raw_location": "旺角上海街朗豪坊門外路旁 停車處 (近亞皆老街交界) 6月22日（星期一） 至 6月25日（星期四） 西洋菜南街路旁停車處 (銀行中心廣場對出) 6月26日（星期五） 至 6月28日（星期日） (6月24日星期三暫停)",
+          "start_date": "2026-06-22",
+          "end_date": "2026-06-25",
+          "suspended_dates": [
+            "2026-06-24"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "旺角上海街朗豪坊門外路旁 停車處 (近亞皆老街交界)"
+          ],
+          "stop_id": "t1-2026-06-22-36",
+          "location_key": "油尖旺區|旺角上海街朗豪坊門外路旁停車處(近亞皆老街交界)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "油尖旺區",
+          "location": "西洋菜南街路旁停車處 (銀行中心廣場對出)",
+          "raw_location": "旺角上海街朗豪坊門外路旁 停車處 (近亞皆老街交界) 6月22日（星期一） 至 6月25日（星期四） 西洋菜南街路旁停車處 (銀行中心廣場對出) 6月26日（星期五） 至 6月28日（星期日） (6月24日星期三暫停)",
+          "start_date": "2026-06-26",
+          "end_date": "2026-06-28",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "西洋菜南街路旁停車處 (銀行中心廣場對出)"
+          ],
+          "stop_id": "t1-2026-06-26-37",
+          "location_key": "油尖旺區|西洋菜南街路旁停車處(銀行中心廣場對出)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "屯門區",
+          "location": "屯門豐安街避車處 (展亮技能發展中心外)",
+          "raw_location": "屯門豐安街避車處 (展亮技能發展中心外) (7月2日星期四暫停)",
+          "start_date": "2026-06-29",
+          "end_date": "2026-07-05",
+          "suspended_dates": [
+            "2026-07-02"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "屯門豐安街避車處 (展亮技能發展中心外)"
+          ],
+          "stop_id": "t1-2026-06-29-38",
+          "location_key": "屯門區|屯門豐安街避車處(展亮技能發展中心外)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "灣仔區",
+          "location": "銅鑼灣百德新街路旁停車處 (翡翠明珠廣場外)",
+          "raw_location": "銅鑼灣百德新街路旁停車處 (翡翠明珠廣場外) (7月8日星期三暫停)",
+          "start_date": "2026-07-06",
+          "end_date": "2026-07-12",
+          "suspended_dates": [
+            "2026-07-08"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "銅鑼灣百德新街路旁停車處 (翡翠明珠廣場外)"
+          ],
+          "stop_id": "t1-2026-07-06-39",
+          "location_key": "灣仔區|銅鑼灣百德新街路旁停車處(翡翠明珠廣場外)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "葵青區",
+          "location": "葵芳興芳路 (近興芳路遊樂場)",
+          "raw_location": "葵芳興芳路 (近興芳路遊樂場) (7月15日星期三暫停)",
+          "start_date": "2026-07-13",
+          "end_date": "2026-07-19",
+          "suspended_dates": [
+            "2026-07-15"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "葵芳興芳路 (近興芳路遊樂場)"
+          ],
+          "stop_id": "t1-2026-07-13-40",
+          "location_key": "葵青區|葵芳興芳路(近興芳路遊樂場)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "元朗區",
+          "location": "天水圍天恩邨恩穗樓對出 上落貨區",
+          "raw_location": "天水圍天恩邨恩穗樓對出 上落貨區 7月20日（星期一） 至 7月23日（星期四） 天水圍天逸邨逸江樓側卸貨區 (逸江樓與逸海樓之間) 7月24日（星期五） 至 7月26日（星期日） (7月22日星期三暫停)",
+          "start_date": "2026-07-20",
+          "end_date": "2026-07-23",
+          "suspended_dates": [
+            "2026-07-22"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "天水圍天恩邨恩穗樓對出 上落貨區"
+          ],
+          "stop_id": "t1-2026-07-20-41",
+          "location_key": "元朗區|天水圍天恩邨恩穗樓對出上落貨區",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "元朗區",
+          "location": "天水圍天逸邨逸江樓側卸貨區 (逸江樓與逸海樓之間)",
+          "raw_location": "天水圍天恩邨恩穗樓對出 上落貨區 7月20日（星期一） 至 7月23日（星期四） 天水圍天逸邨逸江樓側卸貨區 (逸江樓與逸海樓之間) 7月24日（星期五） 至 7月26日（星期日） (7月22日星期三暫停)",
+          "start_date": "2026-07-24",
+          "end_date": "2026-07-26",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "天水圍天逸邨逸江樓側卸貨區 (逸江樓與逸海樓之間)"
+          ],
+          "stop_id": "t1-2026-07-24-42",
+          "location_key": "元朗區|天水圍天逸邨逸江樓側卸貨區(逸江樓與逸海樓之間)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "中西區",
+          "location": "石塘咀皇后大道西554-560號 路旁 (近日富里)",
+          "raw_location": "石塘咀皇后大道西554-560號 路旁 (近日富里) 7月27日（星期一）至 7月30日（星期四） 西環堅尼地城新海旁街路旁 停車處 (近堅尼地城消防局) 7月31日（星期五） 至 8月2日（星期日） (7月28日星期二暫停) (7月29日星期三服務時間至 中午12時)",
+          "start_date": "2026-07-27",
+          "end_date": "2026-07-30",
+          "suspended_dates": [
+            "2026-07-28"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "石塘咀皇后大道西554-560號 路旁 (近日富里)"
+          ],
+          "stop_id": "t1-2026-07-27-43",
+          "location_key": "中西區|石塘咀皇后大道西554-560號路旁(近日富里)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "中西區",
+          "location": "西環堅尼地城新海旁街路旁 停車處 (近堅尼地城消防局)",
+          "raw_location": "石塘咀皇后大道西554-560號 路旁 (近日富里) 7月27日（星期一）至 7月30日（星期四） 西環堅尼地城新海旁街路旁 停車處 (近堅尼地城消防局) 7月31日（星期五） 至 8月2日（星期日） (7月28日星期二暫停) (7月29日星期三服務時間至 中午12時)",
+          "start_date": "2026-07-31",
+          "end_date": "2026-08-02",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": "Sha Tin District",
+          "location_en_raw": "Lay-by on To Shek Street, Sha Tin (nearby area outside Shui Chuen O Plaza, Shui Chuen O Estate)",
+          "location_en": null,
+          "location_en_core": "To Shek Street, Sha Tin",
+          "location_en_query_candidates": [
+            "To Shek Street, Sha Tin",
+            "To Shek Street, Sha Tin, Hong Kong",
+            "To Shek Street, Sha Tin, Sha Tin District, Hong Kong",
+            "西環堅尼地城新海旁街路旁 停車處",
+            "西環堅尼地城新海旁街路旁 停車處, Hong Kong",
+            "西環堅尼地城新海旁街路旁 停車處, Sha Tin District, Hong Kong",
+            "西環堅尼地城新海旁街路旁 停車處 (近堅尼地城消防局)"
+          ],
+          "stop_id": "t1-2026-07-31-44",
+          "location_key": "中西區|西環堅尼地城新海旁街路旁停車處(近堅尼地城消防局)",
+          "coord_status": "auto",
+          "lat": 22.3739619,
+          "lng": 114.1976186,
+          "coord_source": "nominatim"
+        },
+        {
+          "district": "北區",
+          "location": "粉嶺暉明路路旁停車處 (近五旬節于良發小學) (8月5日星期三服務時間至 中午12時)",
+          "raw_location": "粉嶺暉明路路旁停車處 (近五旬節于良發小學) (8月7日星期五暫停) (8月5日星期三服務時間至 中午12時)",
+          "start_date": "2026-08-03",
+          "end_date": "2026-08-09",
+          "suspended_dates": [
+            "2026-08-07"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "粉嶺暉明路路旁停車處 (近五旬節于良發小學) (8月5日星期三服務時間至 中午12時)"
+          ],
+          "stop_id": "t1-2026-08-03-45",
+          "location_key": "北區|粉嶺暉明路路旁停車處(近五旬節于良發小學)(8月5日星期三服務時間至中午12時)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "東區",
+          "location": "柴灣新廈街路旁停車處 (近樂軒臺5座)",
+          "raw_location": "柴灣新廈街路旁停車處 (近樂軒臺5座) (8月12日星期三暫停)",
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-16",
+          "suspended_dates": [
+            "2026-08-12"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "柴灣新廈街路旁停車處 (近樂軒臺5座)"
+          ],
+          "stop_id": "t1-2026-08-10-46",
+          "location_key": "東區|柴灣新廈街路旁停車處(近樂軒臺5座)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         }
       ]
     },
@@ -2019,6 +2332,370 @@
           "lat": 22.242841,
           "lng": 114.1488018,
           "coord_source": "nominatim"
+        },
+        {
+          "district": "元朗區",
+          "location": "元朗又新街38號 (近又一新城商場)",
+          "raw_location": "元朗又新街38號 (近又一新城商場) 6月9日（星期二） 至 6月11日（星期四） 元朗水邊圍邨疊水樓對出空地 6月12日（星期五） 至 6月14日（星期日） (6月8日星期一暫停)",
+          "start_date": "2026-06-09",
+          "end_date": "2026-06-11",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "元朗又新街38號 (近又一新城商場)"
+          ],
+          "stop_id": "t2-2026-06-09-32",
+          "location_key": "元朗區|元朗又新街38號(近又一新城商場)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "元朗區",
+          "location": "元朗水邊圍邨疊水樓對出空地",
+          "raw_location": "元朗又新街38號 (近又一新城商場) 6月9日（星期二） 至 6月11日（星期四） 元朗水邊圍邨疊水樓對出空地 6月12日（星期五） 至 6月14日（星期日） (6月8日星期一暫停)",
+          "start_date": "2026-06-12",
+          "end_date": "2026-06-14",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "元朗水邊圍邨疊水樓對出空地"
+          ],
+          "stop_id": "t2-2026-06-12-33",
+          "location_key": "元朗區|元朗水邊圍邨疊水樓對出空地",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "觀塘區",
+          "location": "油塘高翔苑高麟閣側",
+          "raw_location": "油塘高翔苑高麟閣側 (6月18日星期四暫停)",
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-21",
+          "suspended_dates": [
+            "2026-06-18"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "油塘高翔苑高麟閣側"
+          ],
+          "stop_id": "t2-2026-06-15-34",
+          "location_key": "觀塘區|油塘高翔苑高麟閣側",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "大埔區",
+          "location": "大埔安浩里八號花園側",
+          "raw_location": "大埔安浩里八號花園側* 6月22日（星期一） 至 6月24日（星期三） 白石角科進路12號 (雲滙二期十座對出) 6月26日（星期五） 至 6月28日（星期日） (6月25日星期四暫停)",
+          "start_date": "2026-06-22",
+          "end_date": "2026-06-24",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "大埔安浩里八號花園側"
+          ],
+          "stop_id": "t2-2026-06-22-35",
+          "location_key": "大埔區|大埔安浩里八號花園側",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "大埔區",
+          "location": "白石角科進路12號 (雲滙二期十座對出)",
+          "raw_location": "大埔安浩里八號花園側* 6月22日（星期一） 至 6月24日（星期三） 白石角科進路12號 (雲滙二期十座對出) 6月26日（星期五） 至 6月28日（星期日） (6月25日星期四暫停)",
+          "start_date": "2026-06-26",
+          "end_date": "2026-06-28",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "白石角科進路12號 (雲滙二期十座對出)"
+          ],
+          "stop_id": "t2-2026-06-26-36",
+          "location_key": "大埔區|白石角科進路12號(雲滙二期十座對出)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "沙田區",
+          "location": "香港科學園議事廣場 (近高錕會議中心「金蛋」)",
+          "raw_location": "香港科學園議事廣場 (近高錕會議中心「金蛋」) 6月29日（星期一） 至 7月2日（星期四） 沙田顯徑邨顯揚樓* 7月3日（星期五） 至 7月5日（星期日） (7月1日星期三暫停)",
+          "start_date": "2026-06-29",
+          "end_date": "2026-07-02",
+          "suspended_dates": [
+            "2026-07-01"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "香港科學園議事廣場 (近高錕會議中心「金蛋」)"
+          ],
+          "stop_id": "t2-2026-06-29-37",
+          "location_key": "沙田區|香港科學園議事廣場(近高錕會議中心「金蛋」)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "沙田區",
+          "location": "沙田顯徑邨顯揚樓",
+          "raw_location": "香港科學園議事廣場 (近高錕會議中心「金蛋」) 6月29日（星期一） 至 7月2日（星期四） 沙田顯徑邨顯揚樓* 7月3日（星期五） 至 7月5日（星期日） (7月1日星期三暫停)",
+          "start_date": "2026-07-03",
+          "end_date": "2026-07-05",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "沙田顯徑邨顯揚樓"
+          ],
+          "stop_id": "t2-2026-07-03-38",
+          "location_key": "沙田區|沙田顯徑邨顯揚樓",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "荃灣區",
+          "location": "荃灣海濱花園海昇閣",
+          "raw_location": "荃灣海濱花園海昇閣* 7月6日（星期一） 至 7月9日（星期四） 青龍頭豪景花園5座側 7月10日（星期五） 至 7月12日（星期日） (7月7日星期二暫停)",
+          "start_date": "2026-07-06",
+          "end_date": "2026-07-09",
+          "suspended_dates": [
+            "2026-07-07"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "荃灣海濱花園海昇閣"
+          ],
+          "stop_id": "t2-2026-07-06-39",
+          "location_key": "荃灣區|荃灣海濱花園海昇閣",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "荃灣區",
+          "location": "青龍頭豪景花園5座側",
+          "raw_location": "荃灣海濱花園海昇閣* 7月6日（星期一） 至 7月9日（星期四） 青龍頭豪景花園5座側 7月10日（星期五） 至 7月12日（星期日） (7月7日星期二暫停)",
+          "start_date": "2026-07-10",
+          "end_date": "2026-07-12",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "青龍頭豪景花園5座側"
+          ],
+          "stop_id": "t2-2026-07-10-40",
+          "location_key": "荃灣區|青龍頭豪景花園5座側",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "南區",
+          "location": "薄扶林華富(一)邨華安樓",
+          "raw_location": "薄扶林華富(一)邨華安樓 (7月16日星期四暫停)",
+          "start_date": "2026-07-13",
+          "end_date": "2026-07-19",
+          "suspended_dates": [
+            "2026-07-16"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "薄扶林華富(一)邨華安樓"
+          ],
+          "stop_id": "t2-2026-07-13-41",
+          "location_key": "南區|薄扶林華富(一)邨華安樓",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "西貢區",
+          "location": "將軍澳怡明邨怡悅樓",
+          "raw_location": "將軍澳怡明邨怡悅樓* 7月20日（星期一） 至 7月22日（星期三） 坑口和明苑和暉閣 7月24日（星期五） 至 7月26日（星期日） (7月23日星期四暫停)",
+          "start_date": "2026-07-20",
+          "end_date": "2026-07-22",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "將軍澳怡明邨怡悅樓"
+          ],
+          "stop_id": "t2-2026-07-20-42",
+          "location_key": "西貢區|將軍澳怡明邨怡悅樓",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "西貢區",
+          "location": "坑口和明苑和暉閣",
+          "raw_location": "將軍澳怡明邨怡悅樓* 7月20日（星期一） 至 7月22日（星期三） 坑口和明苑和暉閣 7月24日（星期五） 至 7月26日（星期日） (7月23日星期四暫停)",
+          "start_date": "2026-07-24",
+          "end_date": "2026-07-26",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "坑口和明苑和暉閣"
+          ],
+          "stop_id": "t2-2026-07-24-43",
+          "location_key": "西貢區|坑口和明苑和暉閣",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "離島區",
+          "location": "東涌裕泰苑A座",
+          "raw_location": "東涌裕泰苑A座 7月27日（星期一） 至 7月29日（星期三） 東涌富東邨東涌健康中心正門 7月31日（星期五） 至 8月2日（星期日） (7月30日星期四暫停)",
+          "start_date": "2026-07-27",
+          "end_date": "2026-07-29",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "東涌裕泰苑A座"
+          ],
+          "stop_id": "t2-2026-07-27-44",
+          "location_key": "離島區|東涌裕泰苑A座",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "離島區",
+          "location": "東涌富東邨東涌健康中心正門",
+          "raw_location": "東涌裕泰苑A座 7月27日（星期一） 至 7月29日（星期三） 東涌富東邨東涌健康中心正門 7月31日（星期五） 至 8月2日（星期日） (7月30日星期四暫停)",
+          "start_date": "2026-07-31",
+          "end_date": "2026-08-02",
+          "suspended_dates": [],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "東涌富東邨東涌健康中心正門"
+          ],
+          "stop_id": "t2-2026-07-31-45",
+          "location_key": "離島區|東涌富東邨東涌健康中心正門",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "觀塘區",
+          "location": "觀塘順天邨屋邨辦事處側空地 (近天暉樓)",
+          "raw_location": "觀塘順天邨屋邨辦事處側空地 (近天暉樓) (8月8日星期六暫停)",
+          "start_date": "2026-08-03",
+          "end_date": "2026-08-09",
+          "suspended_dates": [
+            "2026-08-08"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "觀塘順天邨屋邨辦事處側空地 (近天暉樓)"
+          ],
+          "stop_id": "t2-2026-08-03-46",
+          "location_key": "觀塘區|觀塘順天邨屋邨辦事處側空地(近天暉樓)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
+        },
+        {
+          "district": "九龍城區",
+          "location": "土瓜灣馬頭涌宋皇臺道 (傲雲峰外)",
+          "raw_location": "土瓜灣馬頭涌宋皇臺道 (傲雲峰外) (8月13日星期四暫停)",
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-16",
+          "suspended_dates": [
+            "2026-08-13"
+          ],
+          "service_hours": "10:00-19:00",
+          "district_en": null,
+          "location_en_raw": null,
+          "location_en": null,
+          "location_en_core": null,
+          "location_en_query_candidates": [
+            "土瓜灣馬頭涌宋皇臺道 (傲雲峰外)"
+          ],
+          "stop_id": "t2-2026-08-10-47",
+          "location_key": "九龍城區|土瓜灣馬頭涌宋皇臺道(傲雲峰外)",
+          "coord_status": "pending",
+          "lat": null,
+          "lng": null,
+          "coord_source": null
         }
       ]
     }

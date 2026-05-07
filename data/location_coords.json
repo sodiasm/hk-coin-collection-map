@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-11",
+  "updated_at": "2026-05-07",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -1451,6 +1451,408 @@
       ],
       "matched_address": "South Horizons, Yi Nam Road, Shek Pai Wan, Ap Lei Chau, Southern District, Hong Kong Island, 999077, China",
       "query_used": "South Horizons, Ap Lei Chau"
+    },
+    "黃大仙區|黃大仙翠竹花園第六座": {
+      "lat": 22.3455355,
+      "lng": 114.1863056,
+      "label": "黃大仙翠竹花園第六座",
+      "source": "nominatim",
+      "status": "auto",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "黃大仙翠竹花園第六座",
+        "黃大仙翠竹花園第六座, Hong Kong"
+      ],
+      "matched_address": "Block 6, Chui Chuk Street, Tsui Chuk Garden, Ma Chai Hang, Wong Tai Sin District, Kowloon, Hong Kong, China",
+      "query_used": "黃大仙翠竹花園第六座"
+    },
+    "深水埗區|深水埗東沙島街(近東蘭閣B座)": {
+      "lat": 22.3373013,
+      "lng": 114.1613382,
+      "label": "深水埗東沙島街 (近東蘭閣B座)",
+      "source": "nominatim",
+      "status": "auto",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "深水埗東沙島街",
+        "深水埗東沙島街, Hong Kong"
+      ],
+      "matched_address": "Pratas Street, Li Cheng Uk, So Uk, Sham Shui Po District, Kowloon, Hong Kong, China",
+      "query_used": "深水埗東沙島街"
+    },
+    "油尖旺區|旺角上海街朗豪坊門外路旁停車處(近亞皆老街交界)": {
+      "lat": null,
+      "lng": null,
+      "label": "旺角上海街朗豪坊門外路旁 停車處 (近亞皆老街交界)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "旺角上海街朗豪坊門外路旁 停車處",
+        "旺角上海街朗豪坊門外路旁 停車處, Hong Kong"
+      ]
+    },
+    "油尖旺區|西洋菜南街路旁停車處(銀行中心廣場對出)": {
+      "lat": null,
+      "lng": null,
+      "label": "西洋菜南街路旁停車處 (銀行中心廣場對出)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "西洋菜南街路旁停車處",
+        "西洋菜南街路旁停車處, Hong Kong"
+      ]
+    },
+    "屯門區|屯門豐安街避車處(展亮技能發展中心外)": {
+      "lat": null,
+      "lng": null,
+      "label": "屯門豐安街避車處 (展亮技能發展中心外)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "屯門豐安街避車處",
+        "屯門豐安街避車處, Hong Kong"
+      ]
+    },
+    "灣仔區|銅鑼灣百德新街路旁停車處(翡翠明珠廣場外)": {
+      "lat": null,
+      "lng": null,
+      "label": "銅鑼灣百德新街路旁停車處 (翡翠明珠廣場外)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "銅鑼灣百德新街路旁停車處",
+        "銅鑼灣百德新街路旁停車處, Hong Kong"
+      ]
+    },
+    "葵青區|葵芳興芳路(近興芳路遊樂場)": {
+      "lat": 22.359505,
+      "lng": 114.1281577,
+      "label": "葵芳興芳路 (近興芳路遊樂場)",
+      "source": "nominatim",
+      "status": "auto",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "葵芳興芳路",
+        "葵芳興芳路, Hong Kong"
+      ],
+      "matched_address": "Kwai Hei House Kwai Fong Estate, Hing Fong Road, Chung Kwai Chung, Kwai Chung, Kwai Tsing District, New Territories, Hong Kong, China",
+      "query_used": "葵芳興芳路"
+    },
+    "元朗區|天水圍天恩邨恩穗樓對出上落貨區": {
+      "lat": null,
+      "lng": null,
+      "label": "天水圍天恩邨恩穗樓對出 上落貨區",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "天水圍天恩邨恩穗樓對出 上落貨區",
+        "天水圍天恩邨恩穗樓對出 上落貨區, Hong Kong"
+      ]
+    },
+    "元朗區|天水圍天逸邨逸江樓側卸貨區(逸江樓與逸海樓之間)": {
+      "lat": null,
+      "lng": null,
+      "label": "天水圍天逸邨逸江樓側卸貨區 (逸江樓與逸海樓之間)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "天水圍天逸邨逸江樓側卸貨區",
+        "天水圍天逸邨逸江樓側卸貨區, Hong Kong"
+      ]
+    },
+    "中西區|石塘咀皇后大道西554-560號路旁(近日富里)": {
+      "lat": null,
+      "lng": null,
+      "label": "石塘咀皇后大道西554-560號 路旁 (近日富里)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "石塘咀皇后大道西554-560號 路旁",
+        "石塘咀皇后大道西554-560號 路旁, Hong Kong"
+      ]
+    },
+    "北區|粉嶺暉明路路旁停車處(近五旬節于良發小學)(8月5日星期三服務時間至中午12時)": {
+      "lat": null,
+      "lng": null,
+      "label": "粉嶺暉明路路旁停車處 (近五旬節于良發小學) (8月5日星期三服務時間至 中午12時)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "粉嶺暉明路路旁停車處",
+        "粉嶺暉明路路旁停車處, Hong Kong"
+      ]
+    },
+    "東區|柴灣新廈街路旁停車處(近樂軒臺5座)": {
+      "lat": null,
+      "lng": null,
+      "label": "柴灣新廈街路旁停車處 (近樂軒臺5座)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "柴灣新廈街路旁停車處",
+        "柴灣新廈街路旁停車處, Hong Kong"
+      ]
+    },
+    "元朗區|元朗又新街38號(近又一新城商場)": {
+      "lat": null,
+      "lng": null,
+      "label": "元朗又新街38號 (近又一新城商場)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "元朗又新街38號",
+        "元朗又新街38號, Hong Kong"
+      ]
+    },
+    "元朗區|元朗水邊圍邨疊水樓對出空地": {
+      "lat": null,
+      "lng": null,
+      "label": "元朗水邊圍邨疊水樓對出空地",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "元朗水邊圍邨疊水樓對出空地",
+        "元朗水邊圍邨疊水樓對出空地, Hong Kong"
+      ]
+    },
+    "觀塘區|油塘高翔苑高麟閣側": {
+      "lat": null,
+      "lng": null,
+      "label": "油塘高翔苑高麟閣側",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "油塘高翔苑高麟閣側",
+        "油塘高翔苑高麟閣側, Hong Kong"
+      ]
+    },
+    "大埔區|大埔安浩里八號花園側": {
+      "lat": null,
+      "lng": null,
+      "label": "大埔安浩里八號花園側",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "大埔安浩里八號花園側",
+        "大埔安浩里八號花園側, Hong Kong"
+      ]
+    },
+    "大埔區|白石角科進路12號(雲滙二期十座對出)": {
+      "lat": null,
+      "lng": null,
+      "label": "白石角科進路12號 (雲滙二期十座對出)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "白石角科進路12號",
+        "白石角科進路12號, Hong Kong"
+      ]
+    },
+    "沙田區|香港科學園議事廣場(近高錕會議中心「金蛋」)": {
+      "lat": 22.4260645,
+      "lng": 114.2108619,
+      "label": "香港科學園議事廣場 (近高錕會議中心「金蛋」)",
+      "source": "nominatim",
+      "status": "auto",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "香港科學園議事廣場",
+        "香港科學園議事廣場, Hong Kong"
+      ],
+      "matched_address": "The Forum, Hong Kong Science Park, Ma Liu Shui, Sha Tin District, New Territories, Hong Kong, China",
+      "query_used": "香港科學園議事廣場"
+    },
+    "沙田區|沙田顯徑邨顯揚樓": {
+      "lat": 22.3653442,
+      "lng": 114.173076,
+      "label": "沙田顯徑邨顯揚樓",
+      "source": "nominatim",
+      "status": "auto",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "沙田顯徑邨顯揚樓",
+        "沙田顯徑邨顯揚樓, Hong Kong"
+      ],
+      "matched_address": "Hin Yeung House, Hin Keng Estate, Che Kung Miu Road, Hin Tin, Hin Keng, Sha Tin District, New Territories, Hong Kong, China",
+      "query_used": "沙田顯徑邨顯揚樓"
+    },
+    "荃灣區|荃灣海濱花園海昇閣": {
+      "lat": null,
+      "lng": null,
+      "label": "荃灣海濱花園海昇閣",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "荃灣海濱花園海昇閣",
+        "荃灣海濱花園海昇閣, Hong Kong"
+      ]
+    },
+    "荃灣區|青龍頭豪景花園5座側": {
+      "lat": null,
+      "lng": null,
+      "label": "青龍頭豪景花園5座側",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "青龍頭豪景花園5座側",
+        "青龍頭豪景花園5座側, Hong Kong"
+      ]
+    },
+    "南區|薄扶林華富(一)邨華安樓": {
+      "lat": null,
+      "lng": null,
+      "label": "薄扶林華富(一)邨華安樓",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "薄扶林華富邨華安樓",
+        "薄扶林華富邨華安樓, Hong Kong"
+      ]
+    },
+    "西貢區|將軍澳怡明邨怡悅樓": {
+      "lat": null,
+      "lng": null,
+      "label": "將軍澳怡明邨怡悅樓",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "將軍澳怡明邨怡悅樓",
+        "將軍澳怡明邨怡悅樓, Hong Kong"
+      ]
+    },
+    "西貢區|坑口和明苑和暉閣": {
+      "lat": null,
+      "lng": null,
+      "label": "坑口和明苑和暉閣",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "坑口和明苑和暉閣",
+        "坑口和明苑和暉閣, Hong Kong"
+      ]
+    },
+    "離島區|東涌裕泰苑A座": {
+      "lat": null,
+      "lng": null,
+      "label": "東涌裕泰苑A座",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "東涌裕泰苑A座",
+        "東涌裕泰苑A座, Hong Kong"
+      ]
+    },
+    "離島區|東涌富東邨東涌健康中心正門": {
+      "lat": null,
+      "lng": null,
+      "label": "東涌富東邨東涌健康中心正門",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "東涌富東邨東涌健康中心正門",
+        "東涌富東邨東涌健康中心正門, Hong Kong"
+      ]
+    },
+    "觀塘區|觀塘順天邨屋邨辦事處側空地(近天暉樓)": {
+      "lat": null,
+      "lng": null,
+      "label": "觀塘順天邨屋邨辦事處側空地 (近天暉樓)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "觀塘順天邨屋邨辦事處側空地",
+        "觀塘順天邨屋邨辦事處側空地, Hong Kong"
+      ]
+    },
+    "九龍城區|土瓜灣馬頭涌宋皇臺道(傲雲峰外)": {
+      "lat": null,
+      "lng": null,
+      "label": "土瓜灣馬頭涌宋皇臺道 (傲雲峰外)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "土瓜灣馬頭涌宋皇臺道",
+        "土瓜灣馬頭涌宋皇臺道, Hong Kong"
+      ]
     }
   }
 }
