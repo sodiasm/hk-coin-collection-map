@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-08",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -1757,18 +1757,20 @@
       ]
     },
     "南區|薄扶林華富(一)邨華安樓": {
-      "lat": null,
-      "lng": null,
+      "lat": 22.2518135,
+      "lng": 114.1386914,
       "label": "薄扶林華富(一)邨華安樓",
       "source": "nominatim",
-      "status": "pending",
+      "status": "auto",
       "district_en": null,
       "location_en_raw": null,
       "location_en_core": null,
       "location_en_query_candidates": [
         "薄扶林華富邨華安樓",
         "薄扶林華富邨華安樓, Hong Kong"
-      ]
+      ],
+      "matched_address": "Wah On House Wah Fu Estate, Wah Fu Road, Wah Fu (I) Estate, Kellett Bay, Southern District, Hong Kong Island, Hong Kong, China",
+      "query_used": "薄扶林華富邨華安樓"
     },
     "西貢區|將軍澳怡明邨怡悅樓": {
       "lat": null,
