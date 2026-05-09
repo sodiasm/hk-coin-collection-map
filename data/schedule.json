@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -2592,10 +2592,10 @@
           ],
           "stop_id": "t2-2026-07-13-41",
           "location_key": "南區|薄扶林華富(一)邨華安樓",
-          "coord_status": "pending",
-          "lat": null,
-          "lng": null,
-          "coord_source": null
+          "coord_status": "auto",
+          "lat": 22.2518135,
+          "lng": 114.1386914,
+          "coord_source": "nominatim"
         },
         {
           "district": "西貢區",
