@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1389,6 +1389,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "屯門湖景邨湖翠樓對出湖暉街",
+            "屯門湖景邨湖翠樓對出湖暉街, Hong Kong",
             "屯門湖景邨湖翠樓對出湖暉街 (近二號停車場)"
           ],
           "stop_id": "t1-2026-08-17-47",
@@ -1413,6 +1415,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "葵涌葵興路路旁停車處",
+            "葵涌葵興路路旁停車處, Hong Kong",
             "葵涌葵興路路旁停車處 (近葵俊苑葵豐閣)"
           ],
           "stop_id": "t1-2026-08-24-48",
@@ -1435,7 +1439,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "深水埗桂林街近黃金電腦商場"
+            "深水埗桂林街近黃金電腦商場",
+            "深水埗桂林街近黃金電腦商場, Hong Kong"
           ],
           "stop_id": "t1-2026-08-31-49",
           "location_key": "深水埗區|深水埗桂林街近黃金電腦商場",
@@ -1457,7 +1462,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "深水埗蘇屋邨金松樓"
+            "深水埗蘇屋邨金松樓",
+            "深水埗蘇屋邨金松樓, Hong Kong"
           ],
           "stop_id": "t1-2026-09-03-50",
           "location_key": "深水埗區|深水埗蘇屋邨金松樓",
@@ -1481,6 +1487,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "東涌映灣園二期行人天橋對下車路",
+            "東涌映灣園二期行人天橋對下車路, Hong Kong",
             "東涌映灣園二期行人天橋對下車路 (近第6座)"
           ],
           "stop_id": "t1-2026-09-07-51",
@@ -1505,7 +1513,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "旺角海富苑海寧閣"
+            "旺角海富苑海寧閣",
+            "旺角海富苑海寧閣, Hong Kong"
           ],
           "stop_id": "t1-2026-09-14-52",
           "location_key": "油尖旺區|旺角海富苑海寧閣",
@@ -1529,7 +1538,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "中環4、5或6號碼頭對開"
+            "中環4、5或6號碼頭對開",
+            "中環4、5或6號碼頭對開, Hong Kong"
           ],
           "stop_id": "t1-2026-09-21-53",
           "location_key": "中西區|中環4、5或6號碼頭對開",
@@ -1553,6 +1563,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "獅子石道路旁停車處",
+            "獅子石道路旁停車處, Hong Kong",
             "獅子石道路旁停車處 (近獅子石道路27號)"
           ],
           "stop_id": "t1-2026-09-28-54",
@@ -1575,6 +1587,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "馬頭角新碼頭街",
+            "馬頭角新碼頭街, Hong Kong",
             "馬頭角新碼頭街 (近翔龍灣廣場)"
           ],
           "stop_id": "t1-2026-10-02-55",
@@ -1597,7 +1611,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "牛頭角上邨廣場"
+            "牛頭角上邨廣場",
+            "牛頭角上邨廣場, Hong Kong"
           ],
           "stop_id": "t1-2026-10-05-56",
           "location_key": "觀塘區|牛頭角上邨廣場",
@@ -1619,7 +1634,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "九龍灣彩盈邨盈富樓"
+            "九龍灣彩盈邨盈富樓",
+            "九龍灣彩盈邨盈富樓, Hong Kong"
           ],
           "stop_id": "t1-2026-10-09-57",
           "location_key": "觀塘區|九龍灣彩盈邨盈富樓",
@@ -1641,7 +1657,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "沙田碩門邨美碩樓"
+            "沙田碩門邨美碩樓",
+            "沙田碩門邨美碩樓, Hong Kong"
           ],
           "stop_id": "t1-2026-10-13-58",
           "location_key": "沙田區|沙田碩門邨美碩樓",
@@ -1663,7 +1680,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "沙田水泉澳邨茂泉樓"
+            "沙田水泉澳邨茂泉樓",
+            "沙田水泉澳邨茂泉樓, Hong Kong"
           ],
           "stop_id": "t1-2026-10-16-59",
           "location_key": "沙田區|沙田水泉澳邨茂泉樓",
@@ -1685,6 +1703,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "灣仔盧押道路旁停車處",
+            "灣仔盧押道路旁停車處, Hong Kong",
             "灣仔盧押道路旁停車處 (近盧押道1號)"
           ],
           "stop_id": "t1-2026-10-19-60",
@@ -1707,7 +1727,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "灣仔皇后大道東213號胡忠大廈 門外路旁停車處"
+            "灣仔皇后大道東213號胡忠大廈 門外路旁停車處",
+            "灣仔皇后大道東213號胡忠大廈 門外路旁停車處, Hong Kong"
           ],
           "stop_id": "t1-2026-10-22-61",
           "location_key": "灣仔區|灣仔皇后大道東213號胡忠大廈門外路旁停車處",
@@ -3098,6 +3119,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "黃大仙東匯邨",
+            "黃大仙東匯邨, Hong Kong",
             "黃大仙東匯邨 (近匯心樓)"
           ],
           "stop_id": "t2-2026-08-17-48",
@@ -3122,7 +3145,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "香港仔華貴邨華廉樓"
+            "香港仔華貴邨華廉樓",
+            "香港仔華貴邨華廉樓, Hong Kong"
           ],
           "stop_id": "t2-2026-08-24-49",
           "location_key": "南區|香港仔華貴邨華廉樓",
@@ -3144,6 +3168,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "將軍澳唐俊街路旁停車處",
+            "將軍澳唐俊街路旁停車處, Hong Kong",
             "將軍澳唐俊街路旁停車處 (翩滙坊對出)"
           ],
           "stop_id": "t2-2026-08-31-50",
@@ -3166,7 +3192,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "將軍澳明德邨明道樓"
+            "將軍澳明德邨明道樓",
+            "將軍澳明德邨明道樓, Hong Kong"
           ],
           "stop_id": "t2-2026-09-04-51",
           "location_key": "西貢區|將軍澳明德邨明道樓",
@@ -3190,6 +3217,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "粉嶺一鳴路路旁停車處",
+            "粉嶺一鳴路路旁停車處, Hong Kong",
             "粉嶺一鳴路路旁停車處 (近碧湖花園對面巴士站)"
           ],
           "stop_id": "t2-2026-09-07-52",
@@ -3212,7 +3241,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "上水清河邨清照樓"
+            "上水清河邨清照樓",
+            "上水清河邨清照樓, Hong Kong"
           ],
           "stop_id": "t2-2026-09-11-53",
           "location_key": "北區|上水清河邨清照樓",
@@ -3236,6 +3266,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "大埔寶湖里路旁停車處",
+            "大埔寶湖里路旁停車處, Hong Kong",
             "大埔寶湖里路旁停車處 (寶湖道街市對出)"
           ],
           "stop_id": "t2-2026-09-14-54",
@@ -3261,7 +3293,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "屯門兆康苑兆暉閣"
+            "屯門兆康苑兆暉閣",
+            "屯門兆康苑兆暉閣, Hong Kong"
           ],
           "stop_id": "t2-2026-09-21-55",
           "location_key": "屯門區|屯門兆康苑兆暉閣",
@@ -3283,6 +3316,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "元朗公園南路避車處",
+            "元朗公園南路避車處, Hong Kong",
             "元朗公園南路避車處 (柏麗豪園外)"
           ],
           "stop_id": "t2-2026-09-28-56",
@@ -3305,6 +3340,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "元朗朗晴居門外路旁停車處",
+            "元朗朗晴居門外路旁停車處, Hong Kong",
             "元朗朗晴居門外路旁停車處 (近鳳翔路及港攸路交界)"
           ],
           "stop_id": "t2-2026-10-02-57",
@@ -3329,7 +3366,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "筲箕灣愛東邨愛旭樓"
+            "筲箕灣愛東邨愛旭樓",
+            "筲箕灣愛東邨愛旭樓, Hong Kong"
           ],
           "stop_id": "t2-2026-10-05-58",
           "location_key": "東區|筲箕灣愛東邨愛旭樓",
@@ -3354,7 +3392,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "荃灣象山邨秀山樓"
+            "荃灣象山邨秀山樓",
+            "荃灣象山邨秀山樓, Hong Kong"
           ],
           "stop_id": "t2-2026-10-12-59",
           "location_key": "荃灣區|荃灣象山邨秀山樓",
@@ -3376,6 +3415,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "大角咀埃華街33號路旁停車處",
+            "大角咀埃華街33號路旁停車處, Hong Kong",
             "大角咀埃華街33號路旁停車處 (安業工廠大廈外)"
           ],
           "stop_id": "t2-2026-10-19-60",
@@ -3398,6 +3439,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "尖東加連威老道",
+            "尖東加連威老道, Hong Kong",
             "尖東加連威老道 (近香港科學館)"
           ],
           "stop_id": "t2-2026-10-23-61",
