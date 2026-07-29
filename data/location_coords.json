@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-29",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -2260,6 +2260,20 @@
       "location_en_query_candidates": [
         "尖東加連威老道",
         "尖東加連威老道, Hong Kong"
+      ]
+    },
+    "離島區|東涌裕泰苑B座": {
+      "lat": null,
+      "lng": null,
+      "label": "東涌裕泰苑B座",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "東涌裕泰苑B座",
+        "東涌裕泰苑B座, Hong Kong"
       ]
     }
   }

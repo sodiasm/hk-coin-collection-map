@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -3008,8 +3008,8 @@
         },
         {
           "district": "離島區",
-          "location": "東涌裕泰苑A座",
-          "raw_location": "東涌裕泰苑A座 7月27日（星期一） 至 7月29日（星期三） 東涌富東邨東涌健康中心正門 7月31日（星期五） 至 8月2日（星期日） (7月30日星期四暫停)",
+          "location": "東涌裕泰苑B座",
+          "raw_location": "東涌裕泰苑B座 7 月 27 日（星期一） 至 7 月 29 日（星期三） 東涌富東邨東涌健康中心正門 7 月 31 日（星期五） 至 8 月 2 日（星期日） (7月30日星期四暫停)",
           "start_date": "2026-07-27",
           "end_date": "2026-07-29",
           "suspended_dates": [],
@@ -3019,11 +3019,10 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "東涌裕泰苑A座",
-            "東涌裕泰苑A座, Hong Kong"
+            "東涌裕泰苑B座"
           ],
           "stop_id": "t2-2026-07-27-44",
-          "location_key": "離島區|東涌裕泰苑A座",
+          "location_key": "離島區|東涌裕泰苑B座",
           "coord_status": "pending",
           "lat": null,
           "lng": null,
@@ -3032,7 +3031,7 @@
         {
           "district": "離島區",
           "location": "東涌富東邨東涌健康中心正門",
-          "raw_location": "東涌裕泰苑A座 7月27日（星期一） 至 7月29日（星期三） 東涌富東邨東涌健康中心正門 7月31日（星期五） 至 8月2日（星期日） (7月30日星期四暫停)",
+          "raw_location": "東涌裕泰苑B座 7 月 27 日（星期一） 至 7 月 29 日（星期三） 東涌富東邨東涌健康中心正門 7 月 31 日（星期五） 至 8 月 2 日（星期日） (7月30日星期四暫停)",
           "start_date": "2026-07-31",
           "end_date": "2026-08-02",
           "suspended_dates": [],
