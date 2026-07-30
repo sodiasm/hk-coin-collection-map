@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-30",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -3019,7 +3019,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "東涌裕泰苑B座"
+            "東涌裕泰苑B座",
+            "東涌裕泰苑B座, Hong Kong"
           ],
           "stop_id": "t2-2026-07-27-44",
           "location_key": "離島區|東涌裕泰苑B座",
