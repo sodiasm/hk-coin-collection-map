@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1753,7 +1753,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "柴灣興華二邨安興樓側"
+            "柴灣興華二邨安興樓側",
+            "柴灣興華二邨安興樓側, Hong Kong"
           ],
           "stop_id": "t1-2026-10-26-62",
           "location_key": "東區|柴灣興華二邨安興樓側",
@@ -1777,6 +1778,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "荃灣綠楊新邨",
+            "荃灣綠楊新邨, Hong Kong",
             "荃灣綠楊新邨 (YMCA青少年中心對出平台 空地)"
           ],
           "stop_id": "t1-2026-11-02-63",
@@ -1799,7 +1802,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "慈雲山慈樂邨樂祥樓"
+            "慈雲山慈樂邨樂祥樓",
+            "慈雲山慈樂邨樂祥樓, Hong Kong"
           ],
           "stop_id": "t1-2026-11-09-64",
           "location_key": "黃大仙區|慈雲山慈樂邨樂祥樓",
@@ -1821,7 +1825,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "慈雲山慈樂邨樂旺樓"
+            "慈雲山慈樂邨樂旺樓",
+            "慈雲山慈樂邨樂旺樓, Hong Kong"
           ],
           "stop_id": "t1-2026-11-13-65",
           "location_key": "黃大仙區|慈雲山慈樂邨樂旺樓",
@@ -1845,6 +1850,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "屯門大興邨大興商場一期旁 公眾地方",
+            "屯門大興邨大興商場一期旁 公眾地方, Hong Kong",
             "屯門大興邨大興商場一期旁 公眾地方 (向興耀樓方向)"
           ],
           "stop_id": "t1-2026-11-16-66",
@@ -1867,6 +1874,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "屯門田景邨",
+            "屯門田景邨, Hong Kong",
             "屯門田景邨 (田樂樓與良田體育館之間)"
           ],
           "stop_id": "t1-2026-11-21-67",
@@ -1891,7 +1900,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "油麻地東莞街駿發花園入口處"
+            "油麻地東莞街駿發花園入口處",
+            "油麻地東莞街駿發花園入口處, Hong Kong"
           ],
           "stop_id": "t1-2026-11-23-68",
           "location_key": "油尖旺區|油麻地東莞街駿發花園入口處",
@@ -1913,7 +1923,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "鴨脷洲利東邨東平樓"
+            "鴨脷洲利東邨東平樓",
+            "鴨脷洲利東邨東平樓, Hong Kong"
           ],
           "stop_id": "t1-2026-11-30-69",
           "location_key": "南區|鴨脷洲利東邨東平樓",
@@ -1935,7 +1946,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "鴨脷洲鴨脷洲邨利寧樓"
+            "鴨脷洲鴨脷洲邨利寧樓",
+            "鴨脷洲鴨脷洲邨利寧樓, Hong Kong"
           ],
           "stop_id": "t1-2026-12-04-70",
           "location_key": "南區|鴨脷洲鴨脷洲邨利寧樓",
@@ -1959,6 +1971,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "中環康樂廣場",
+            "中環康樂廣場, Hong Kong",
             "中環康樂廣場 (近郵政總局)"
           ],
           "stop_id": "t1-2026-12-07-71",
@@ -1983,7 +1997,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "深水埗麗安邨麗廉樓"
+            "深水埗麗安邨麗廉樓",
+            "深水埗麗安邨麗廉樓, Hong Kong"
           ],
           "stop_id": "t1-2026-12-14-72",
           "location_key": "深水埗區|深水埗麗安邨麗廉樓",
@@ -2007,7 +2022,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "何文田愛民邨衛民樓對出平台"
+            "何文田愛民邨衛民樓對出平台",
+            "何文田愛民邨衛民樓對出平台, Hong Kong"
           ],
           "stop_id": "t1-2026-12-21-73",
           "location_key": "九龍城區|何文田愛民邨衛民樓對出平台",
@@ -2029,7 +2045,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "牛池灣彩虹邨金華樓與停車場之 間空地"
+            "牛池灣彩虹邨金華樓與停車場之 間空地",
+            "牛池灣彩虹邨金華樓與停車場之 間空地, Hong Kong"
           ],
           "stop_id": "t1-2026-12-28-74",
           "location_key": "黃大仙區|牛池灣彩虹邨金華樓與停車場之間空地",
@@ -3766,7 +3783,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "元朗朗屏邨喜屏樓"
+            "元朗朗屏邨喜屏樓",
+            "元朗朗屏邨喜屏樓, Hong Kong"
           ],
           "stop_id": "t2-2026-10-26-62",
           "location_key": "元朗區|元朗朗屏邨喜屏樓",
@@ -3788,6 +3806,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "將軍澳坑口常寧路路旁停車處",
+            "將軍澳坑口常寧路路旁停車處, Hong Kong",
             "將軍澳坑口常寧路路旁停車處 (近保良局馮晴紀念小學)"
           ],
           "stop_id": "t2-2026-11-02-63",
@@ -3810,6 +3830,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "將軍澳尚德邨TKO Spot側停車位",
+            "將軍澳尚德邨TKO Spot側停車位, Hong Kong",
             "將軍澳尚德邨TKO Spot側停車位 (尚真樓對出)"
           ],
           "stop_id": "t2-2026-11-06-64",
@@ -3834,6 +3856,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "上水龍琛里",
+            "上水龍琛里, Hong Kong",
             "上水龍琛里 (新都廣場及龍豐花園之間)"
           ],
           "stop_id": "t2-2026-11-09-65",
@@ -3856,7 +3880,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "藍田平田邨平旺樓側空地"
+            "藍田平田邨平旺樓側空地",
+            "藍田平田邨平旺樓側空地, Hong Kong"
           ],
           "stop_id": "t2-2026-11-17-66",
           "location_key": "觀塘區|藍田平田邨平旺樓側空地",
@@ -3878,7 +3903,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "馬鞍山錦泰苑錦基閣"
+            "馬鞍山錦泰苑錦基閣",
+            "馬鞍山錦泰苑錦基閣, Hong Kong"
           ],
           "stop_id": "t2-2026-11-23-67",
           "location_key": "沙田區|馬鞍山錦泰苑錦基閣",
@@ -3902,6 +3928,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "馬鞍山頌安邨頌德樓",
+            "馬鞍山頌安邨頌德樓, Hong Kong",
             "馬鞍山頌安邨頌德樓 (籃球場對出空地)"
           ],
           "stop_id": "t2-2026-11-26-68",
@@ -3926,6 +3954,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "大埔東昌街路旁停車處",
+            "大埔東昌街路旁停車處, Hong Kong",
             "大埔東昌街路旁停車處 (大埔東昌街康體大樓停車場出 入口側)"
           ],
           "stop_id": "t2-2026-11-30-69",
@@ -3948,7 +3978,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "運頭塘邨運頭塘商場近運臨樓"
+            "運頭塘邨運頭塘商場近運臨樓",
+            "運頭塘邨運頭塘商場近運臨樓, Hong Kong"
           ],
           "stop_id": "t2-2026-12-04-70",
           "location_key": "大埔區|運頭塘邨運頭塘商場近運臨樓",
@@ -3972,6 +4003,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "東涌逸東邨勤逸樓路旁停 車處",
+            "東涌逸東邨勤逸樓路旁停 車處, Hong Kong",
             "東涌逸東(二)邨勤逸樓路旁停 車處"
           ],
           "stop_id": "t2-2026-12-07-71",
@@ -3996,7 +4029,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "秀茂坪曉麗苑曉暉閣對出"
+            "秀茂坪曉麗苑曉暉閣對出",
+            "秀茂坪曉麗苑曉暉閣對出, Hong Kong"
           ],
           "stop_id": "t2-2026-12-14-72",
           "location_key": "觀塘區|秀茂坪曉麗苑曉暉閣對出",
@@ -4051,7 +4085,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "青衣長青邨青柏樓"
+            "青衣長青邨青柏樓",
+            "青衣長青邨青柏樓, Hong Kong"
           ],
           "stop_id": "t2-2026-12-28-74",
           "location_key": "葵青區|青衣長青邨青柏樓",
