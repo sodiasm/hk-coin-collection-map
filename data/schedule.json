@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1550,8 +1550,8 @@
         },
         {
           "district": "九龍城區",
-          "location": "獅子石道路旁停車處 (近獅子石道路27號)",
-          "raw_location": "獅子石道路旁停車處 (近獅子石道路27號) 9月28日（星期一） 至 10月1日（星期四） 馬頭角新碼頭街 (近翔龍灣廣場) 10月2日（星期五） 至 10月4日（星期日） (9月30日星期三暫停)",
+          "location": "獅子石道路旁停車處 (近獅子石道路 84 號)",
+          "raw_location": "獅子石道路旁停車處 (近獅子石道路 84 號) 9 月 28 日（星期一） 至 10 月 1 日（星期四） 馬頭角新碼頭街 (近翔龍灣廣場) 10月2日（星期五） 至 10月4日（星期日） (9月30日星期三暫停)",
           "start_date": "2026-09-28",
           "end_date": "2026-10-01",
           "suspended_dates": [
@@ -1563,12 +1563,10 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "獅子石道路旁停車處",
-            "獅子石道路旁停車處, Hong Kong",
-            "獅子石道路旁停車處 (近獅子石道路27號)"
+            "獅子石道路旁停車處 (近獅子石道路 84 號)"
           ],
           "stop_id": "t1-2026-09-28-54",
-          "location_key": "九龍城區|獅子石道路旁停車處(近獅子石道路27號)",
+          "location_key": "九龍城區|獅子石道路旁停車處(近獅子石道路84號)",
           "coord_status": "pending",
           "lat": null,
           "lng": null,
@@ -1577,7 +1575,7 @@
         {
           "district": "九龍城區",
           "location": "馬頭角新碼頭街 (近翔龍灣廣場)",
-          "raw_location": "獅子石道路旁停車處 (近獅子石道路27號) 9月28日（星期一） 至 10月1日（星期四） 馬頭角新碼頭街 (近翔龍灣廣場) 10月2日（星期五） 至 10月4日（星期日） (9月30日星期三暫停)",
+          "raw_location": "獅子石道路旁停車處 (近獅子石道路 84 號) 9 月 28 日（星期一） 至 10 月 1 日（星期四） 馬頭角新碼頭街 (近翔龍灣廣場) 10月2日（星期五） 至 10月4日（星期日） (9月30日星期三暫停)",
           "start_date": "2026-10-02",
           "end_date": "2026-10-04",
           "suspended_dates": [],

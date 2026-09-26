@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-26",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -2624,6 +2624,20 @@
       "location_en_query_candidates": [
         "青衣長青邨青柏樓",
         "青衣長青邨青柏樓, Hong Kong"
+      ]
+    },
+    "九龍城區|獅子石道路旁停車處(近獅子石道路84號)": {
+      "lat": null,
+      "lng": null,
+      "label": "獅子石道路旁停車處 (近獅子石道路 84 號)",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "獅子石道路旁停車處",
+        "獅子石道路旁停車處, Hong Kong"
       ]
     }
   }
