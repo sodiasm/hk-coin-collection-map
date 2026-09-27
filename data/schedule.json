@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -1563,6 +1563,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
+            "獅子石道路旁停車處",
+            "獅子石道路旁停車處, Hong Kong",
             "獅子石道路旁停車處 (近獅子石道路 84 號)"
           ],
           "stop_id": "t1-2026-09-28-54",
