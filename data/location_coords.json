@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-10-19",
   "points": {
     "北區|上水智明街(近育賢學校)": {
       "lat": 22.3145889,
@@ -2638,6 +2638,20 @@
       "location_en_query_candidates": [
         "獅子石道路旁停車處",
         "獅子石道路旁停車處, Hong Kong"
+      ]
+    },
+    "油尖旺區|大角咀埃華街11號路旁停車處": {
+      "lat": null,
+      "lng": null,
+      "label": "大角咀埃華街11號路旁停車處",
+      "source": "nominatim",
+      "status": "pending",
+      "district_en": null,
+      "location_en_raw": null,
+      "location_en_core": null,
+      "location_en_query_candidates": [
+        "大角咀埃華街11號路旁停車處",
+        "大角咀埃華街11號路旁停車處, Hong Kong"
       ]
     }
   }
