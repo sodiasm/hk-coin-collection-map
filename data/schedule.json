@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "source": {
     "zh": "https://www.hkma.gov.hk/media/chi/doc/key-functions/monetary-stability/notes-and-coins/chi_coin_collection.pdf",
     "en": "https://www.hkma.gov.hk/media/eng/doc/key-functions/monetary-stability/notes-and-coins/coin_collection.pdf"
@@ -3733,7 +3733,8 @@
           "location_en": null,
           "location_en_core": null,
           "location_en_query_candidates": [
-            "大角咀埃華街11號路旁停車處"
+            "大角咀埃華街11號路旁停車處",
+            "大角咀埃華街11號路旁停車處, Hong Kong"
           ],
           "stop_id": "t2-2026-10-19-60",
           "location_key": "油尖旺區|大角咀埃華街11號路旁停車處",
